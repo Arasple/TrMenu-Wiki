@@ -15,8 +15,8 @@ TrMenu 需要在联网条件下载安装
 | Spigot | 1.8-1.16 |
 | Paper | 1.8-1.16 |
 | Akarin | × |
-| Arclight \(Forge\) | × |
-| CatServer \(Forge\) | × |
+| Arclight \(Forge\) | √ |
+| CatServer \(Forge\) | √ |
 | Mohist \(Forge\) | × |
 
 ## 安装
