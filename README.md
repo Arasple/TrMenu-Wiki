@@ -24,26 +24,25 @@ Currently developing TrMenu v2 is a completely recoded version with more feature
 * **Menu Events:** Execute actions when opening or closing a menu.
 * **Periodic Tasks:** Custom tasks executed in a defined period.
 * **Scripts:** Configure multiples custom scripts in your menu and get the result anywhere in your menu!
-* **高级绑定，**支持绑定到正则匹配的命令、多个物品特征或是快捷动作
-* **显示材质，**插件支持各种头颅, CustomModelData, NBT 及 HDB 等
-* **动态效果，**图标支持使用动态数量、动态发光效果，动态 NBT 等
-* **动态图标**_**，**_轻松配置动态的材质、名称、Lore和槽位，支持独立更新周期
-* **图标交互，**基于数据包，完整支持包括数字键的总计超过 22 种点击类型
-* **执行动作，**超过 40+ 种动作支持，一步到位实现效果
-* **动作选项，**每个动作均支持配置独立的选项，如延时、条件、概率和遍历
-* **三元反应，**可以使用多个三元反应，由条件、通过动作组和拒绝动作组构成
-* **条件图标，**每个图标可配置带条件的优先级子图标
-* **图标继承，**子图标可以选择继承默认图标的显示属性以提高效率
-* **脚本编译，**条件基于脚本编译返回结果，大部分脚本自动预编译缓存
-* **智能条件，**原创的条件表达式写法，轻松入门上手，如 hasMoney.100
-* **输入捕获，**支持多个参数的高级捕获器
-* **命令传参，**开启命令的参数传入菜单作为变量，轻松打造插件级 GUI
-* **元素变量，**为玩家增删改 Meta 值，且可以当变量使用
-* **模板功能，**将物品放入容器，快速创建菜单配置
-* **自动重载，**菜单编辑自动重载，即时可见
-* **RGB 颜色，**完整支持 1.16+ 颜色代码, 如 &{FFFFFF}, &{256,256,256}
-* 忽略大小写及多种写法的节点
-* 原创易懂的节点逻辑，详细文档 & 轻松入门
-* 代码开源，长期维护，提供开发者 API
+* **Menu Binding:** Bind menus to commands \(RegEx support\), items or shortcuts \(Offhand, Sneak-Click-Player....\)
+* **Materials:** TrMenu supports various way to display the material of a button: CustomModelData, JSON, Custom Heads from HDB or a head value...
+* **Dynamic Fffects:** All buttons support the use of dynamic quantities, glow effect... 
+* **Dynamic Buttons:** They also support dynamic properties such as Materials, Names, Lores and Slots with an independent update interval.
+* **Buttons Interaction:** Supports a total of 22 click types including keys from 1 to 9. Every interaction is packet based
+* **Buttons Actions:** More than 40 actions are supported to perform instead of some commands in a better and easier way
+* **Actions Options:** All actions support options such as delay, conditions, probability and for all players.
+* **Conditionnal Icons:** Each button can have conditionnals icons which will be displayed if a certain condition is met.
+* **Icon Inheritance:** Conditionnal icons can inherit the display properties of the default icon to reduce the size of the config thanks to a single line.
+* **Cached Scripts:** Scripts are automatically pre-compiled and cached.
+* **Smart Conditions:** TrMenu let you user-friendly conditions syntaxes such as `hasMoney.100` or `hasPerm.your.permission`
+* **Input Catcher:** The Input Catcher consists of asking the player to input something in the chat, on a sign, or in an anvil, and then, based on a condition, will execute actions depending if the condition is met or not. You can use multiples Input Catcher one right after another one.
+* **Arguments:** When opening a menu with an binded command, you can provide arguments which can be used in the menu for various purposes, and even be changed later from the menu with actions.  
+* **Meta/Data Support:** You can also create metas or datas per players which can store values just like arguments, but metas are stored until a server restart and datas are always kept. They can be set, edited and removed from the menu and can be accessible wherever you want in it.
+* **Menu Template:** With the /trmenu template &lt;rows&gt; command, you can easily create a menu **design** without touching at the files and then get the configuration.
+* **Auto-Reload:** Menus will be auto reloaded instantly right after you save the file. 
+* **RGB colors:** For 1.16+ servers, RGB codes can be used with &{FFFFFF} or &{256,256,256}
+* Nodes ignore the case and have aliases
+* Understandable node logic, detailed documentation 
+* Open-Source and has a Develeoper API
 * And much more ...
 
