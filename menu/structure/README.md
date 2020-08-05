@@ -1,32 +1,32 @@
 ---
-description: 快速了解 TrMenu 菜单配置的结构
+description: Understand the structure of TrMenu's configuration
 ---
 
 # Structure
 
-## 菜单
+## Menu Configuration
 
-* 标题
-  * 单个或多个标题
-  * 标题更新周期
-* 布局
-  * 菜单布局
-  * 玩家容器布局
-* 选项
-  * 默认补全参数
-  * 默认布局页码
-  * 是否隐藏玩家容器物品
-  * 防频繁点击间隔
-  * 需要依赖的 PlaceholderAPI 拓展
-* 绑定
-  * 绑定正则命令
-  * 绑定物品特征
-* 事件
-  * 开启菜单执行动作
-  * 关闭菜单执行动作
-* 图标
-* 内置脚本
-* 周期任务
+* Title
+  * Single or multiples titles
+  * Title update cycle
+* Layout
+  * Single or multiples menu layouts
+  * Single or multiples player's inventory layouts
+* Options
+  * Default Arguments
+  * Default Layout page
+  * Hide Player's Inventory
+  * Minimum Click Delay
+  * Required PlaceholderAPI Expansions
+* Binding
+  * Commands \(RegEx supported\)
+  * Items \(material, name, lore, texture for skulls\)
+* Event
+  * Open Requirements/Actions
+  * Close Requirements/Actions
+* Buttons
+* Scripts
+* Periodic Tasks
 
 
 

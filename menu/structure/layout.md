@@ -1,16 +1,14 @@
 ---
-description: 布局是 TrMenu 一大特色，皆在用字符快速排版菜单，提高编辑效率和可视化
+description: >-
+  The menu layout is a major feature of TrMenu which allows you to quicly design
+  menus easily (it looks better with items with a single character).
 ---
 
 # Layout
 
-## 示例
+## Example
 
 ```yaml
-#
-# 菜单的布局功能
-# 你可以用 ` ` 来标记设置多个字符名称图标的位置
-#
 Layout:
   - '########`Close`'
   - '         '
@@ -18,9 +16,6 @@ Layout:
   - '         '
   - '########`Next`'
 
-#
-# 玩家容器菜单的布局
-#
 PlayerInventory:
   - '         '
   - '         '
@@ -28,12 +23,12 @@ PlayerInventory:
   - '         '
 ```
 
-* 每个字符代表一个图标在菜单中的位置
-* 布局的行数将同时定义箱子容器的大小
-* 你也可以用 \` \` 将字符串包裹起来，从而不受限于单个字符
-* 玩家容器菜单布局仅限 4\*9 大小
+* The characters represent the buttons' identifiers. 
+* You can also use buttons with multiple characters if you surround them by ````````
+* This defines the size of the menu at the same time
+* The PlayerInventory feature, allows you to have 4 rows more in your menu by using the player's inventory!
 
-## 多页
+## Multiples pages
 
 ```yaml
 Layout:
@@ -42,19 +37,32 @@ Layout:
     - '         '
     - '         '
     - '########`Next`'
-
+    
   - - '########`Close`'
     - '         '
     - ' *       '
     - '         '
     - '`Pre`########'
 
+PlayerInventory:
+  - - '         '
+    - '  | `Close` `Next`  '
+    - '         '
+    - '         '
+    
+  - - '         '
+    - '  `Pre` `Close` |  '
+    - '         '
+    - '         '
+
 ```
 
-* 布局功能可以支持多个布局，从而在同一个菜单中快速实现多页功能
+* You can also have multiples Shapes \(multiples pages\) which you can then change with the `set-shape` action
+* And the PlayerInventory works alongside multiples shapes too!
 
-## 注意
+## Note
 
-* 若无 **玩家容器菜单布局** 与 **菜单布局** 对应，则在该菜单页玩家容器为空
-* 标识图标的字符支持汉字
+* If a Layout doesn't have a corresponding PlayerInventory layout, then the player's inventory won't be used on this page
+* The player's items will still be shown and hidden if there's a button in the same slot. 
+  * You can also use this feature with the `Hide-Player-Inv` option \(see in on the Options wiki page\).
 

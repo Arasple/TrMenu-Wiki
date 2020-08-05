@@ -1,26 +1,27 @@
 ---
-description: 从正规渠道获取到本插件的 JAR 文件后，安装到服务器
+description: 'After downloading the jar file of the plugin, install it on the server.'
 ---
 
 # Install
 
-## 需求
+## Requirements
 
 {% hint style="info" %}
-TrMenu 需要在联网条件下载安装
+At the first launch, TrMenu must be installed with an Internet connection
 {% endhint %}
 
-| 服务端 | 版本 |
+| Server Software | Supported? |
 | :--- | :--- |
 | Spigot | 1.8-1.16 |
 | Paper | 1.8-1.16 |
 | Akarin | × |
 | Arclight \(Forge\) | √ |
-| CatServer \(Forge\) | √ |
-| Mohist \(Forge\) | × |
+| CatServer \(Bukkit+Forge\) | √ |
+| Mohist \(Bukkit+Forge\) | × |
+| Magma \(Bukkit+Forge\) | Not tested |
 
-## 安装
+## Installation
 
-* 将 **TrMenu.jar** 丢进 plugins 目录
-* 重新启动服务器
+* Drop the `TrMenu.jar` jar file into your plugins folder
+* Restart the server
 
