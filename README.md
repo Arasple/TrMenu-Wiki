@@ -14,16 +14,16 @@ Currently developing TrMenu v2 is a completely recoded version with more feature
 
 ## Features
 
-* **版本兼容，**支持 1.8-1.16, 低版本可用 ID/DataValue
-* **数量不限，**菜单的数量没有上限，你可以制作无限制的独立高级菜单
-* **高级布局，**直观可视化的制作菜单，现已支持多字符布局
-* **多页菜单，**你可以利用布局轻松制作多页菜单
-* **虚拟菜单，**完全基于数据包的虚拟容器 & 物品，更安全
-* **玩家容器，**玩家背包 4\*9 的槽位制作菜单，支持多页
-* **动态标题，**所有菜单均支持周期性更新的动态标题
-* **菜单事件，**为菜单的开启、关闭事件执行动作反应
-* **周期任务，**自定义无限制个菜单周期任务
-* **内置脚本，**配置多个自定义脚本并快速调用
+* **Multi-Versions Support:** TrMenu supports Minecraft 1.8 to 1.16.1 and their materials IDs/DataValues.
+* **Unlimited Menus:** You can make as many menus that you want without any limits!
+* **Advanced Layout:** Intuitive and visual way to dispose buttons in your menus.
+* **Multiples Pages support:** You can easily make a menu with multiples pages without needing tons of menus using the exact same items. 
+* **Packet based:** TrMenu menus are completely packet based, making them more performant and secured.
+* **Player Inventory:** TrMenu allows you to take advantage of the player's inventory to have 4\*9 slots more. It can work alongside multiples pages!
+* **Dynamic Titles:** You can have multiples titles per menus updating at a defined interval.
+* **Menu Events:** Execute actions when opening or closing a menu.
+* **Periodic Tasks:** Custom tasks executed in a defined period.
+* **Scripts:** Configure multiples custom scripts in your menu and get the result anywhere in your menu!
 * **高级绑定，**支持绑定到正则匹配的命令、多个物品特征或是快捷动作
 * **显示材质，**插件支持各种头颅, CustomModelData, NBT 及 HDB 等
 * **动态效果，**图标支持使用动态数量、动态发光效果，动态 NBT 等
