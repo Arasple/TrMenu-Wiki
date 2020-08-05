@@ -1,18 +1,18 @@
 ---
-description: 欢迎查阅 TrMenu 的官方教程
+description: Welcome to TrMenu's wiki page
 ---
 
-# 主页
+# Home
 
-## 介绍
+## Intro
 
-TrMenu 是一款发布于 Oct 4th, 2019 的 Bukkit 高级菜单系统
+TrMenu was released on Oct 4, 2019, aiming to be the new modern menu plugin for Minecraft servers.
 
-相比市面上同类菜单插件，拥有丰富功能的同时，还具有强大高效的特点，广受国内外大量用户好评
+Currently developing TrMenu v2 is a completely recoded version with more features
 
-当前已基于 Kotlin 大量改善和完全重写，使用超强 Bukkit-API 拓展 [TabooLib5](https://github.com/TabooLib)
+​ TrMenu is using powerful _Built-in Bukkit-API Expansion_ [TabooLib5](https://github.com/TabooLib)
 
-## 功能
+## Features
 
 * **版本兼容，**支持 1.8-1.16, 低版本可用 ID/DataValue
 * **数量不限，**菜单的数量没有上限，你可以制作无限制的独立高级菜单

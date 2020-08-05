@@ -1,6 +1,6 @@
 # Table of contents
 
-* [主页](README.md)
+* [Home](README.md)
 * [开始](start/README.md)
   * [新版](start/v2.md)
   * [购买](start/purchase.md)
