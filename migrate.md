@@ -2,7 +2,7 @@
 description: 将其他菜单插件的配置文件迁移到 TrMenu！
 ---
 
-# 迁移
+# Migrate
 
 ## 支持插件
 

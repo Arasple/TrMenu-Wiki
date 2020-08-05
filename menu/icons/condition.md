@@ -2,7 +2,7 @@
 description: 子图标属性，为其显示设置条件
 ---
 
-# 条件
+# Condition
 
 ## 示例
 

@@ -1,4 +1,4 @@
-# 物品特征
+# ItemIdentifiers
 
 ## 格式
 

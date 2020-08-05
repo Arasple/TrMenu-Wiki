@@ -2,7 +2,7 @@
 description: TrMenu v2.x 为付费开源版本，提供更优质的功能和体验
 ---
 
-# 购买
+# Purchase
 
 {% hint style="info" %}
 付费购买本插件前，请先确认你的服务端核心、版本是否兼容

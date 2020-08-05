@@ -2,7 +2,7 @@
 description: 同内置脚本类似的用法，随处可用
 ---
 
-# 脚本变量
+# ScriptPlaceholder
 
 ## 格式
 

@@ -2,7 +2,7 @@
 description: 可在菜单内快速调用的内置脚本
 ---
 
-# 内置脚本
+# Internal-Functions
 
 ## 示例
 

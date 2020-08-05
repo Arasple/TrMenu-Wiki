@@ -2,7 +2,7 @@
 description: 在 settings.yml 配置该功能，你可以创建支持 TAB 补全的自定义命令
 ---
 
-# 注册命令
+# RegisterCommands
 
 ## 配置
 

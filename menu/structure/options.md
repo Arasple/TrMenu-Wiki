@@ -2,7 +2,7 @@
 description: 配置菜单的一些选项属性
 ---
 
-# 选项
+# Options
 
 ## 示例
 

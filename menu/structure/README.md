@@ -2,7 +2,7 @@
 description: 快速了解 TrMenu 菜单配置的结构
 ---
 
-# 结构
+# Structure
 
 ## 菜单
 

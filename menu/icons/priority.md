@@ -2,7 +2,7 @@
 description: 子图标的属性，用以定位计算先后
 ---
 
-# 优先级
+# Priority
 
 ## 示例
 
