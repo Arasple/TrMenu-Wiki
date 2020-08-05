@@ -47,18 +47,3 @@ Currently developing TrMenu v2 is a completely recoded version with more feature
 * 代码开源，长期维护，提供开发者 API
 * And much more ...
 
-## 版本
-
-* TrMenu v1.x
-  * 普通免费版本
-  * 停止更新、支持
-* TrMenu v2.x
-  * 现役最新版本
-  * 付费开源
-
-{% hint style="info" %}
-本教程完全基于 TrMenu v2.x
-
-旧版本 Wiki：[http://trmenu.trixey.cn/](http://trmenu.trixey.cn/)
-{% endhint %}
-

@@ -2,8 +2,6 @@
 
 * [Home](README.md)
 * [Start](start/README.md)
-  * [v2](start/v2.md)
-  * [Purchase](start/purchase.md)
   * [Install](start/install.md)
   * [Setup](start/setup.md)
 * [Migrate](migrate.md)
