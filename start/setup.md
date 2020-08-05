@@ -7,7 +7,7 @@ description: 初次安装本插件后，会在插件目录下产生一些文件
 ## 文件
 
 {% tabs %}
-{% tab title="lang/zh\_CN.yml" %}
+{% tab title="lang/en\_US.yml" %}
 TLocale 语言文件, 你可以编辑大多数插件的消息
 {% endtab %}
 
