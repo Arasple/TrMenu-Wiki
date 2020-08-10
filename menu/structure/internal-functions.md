@@ -44,14 +44,14 @@ Functions:
 
 * Each script must have a unique identifier
 * You can use `${SCRIPT_IDENTIFIER}` to get the value returned by a script
-* 若需提供参数，则按照 **${Id\_参数1\_参数2}** 的格式调用
-* 参数在脚本中以 {0}, {1} ... 的形式使用，若需要菜单传参，则使用 PlaceholderAPI 变量
+* You can use arguments with \`${IDENTIFIER\_ARG1\_ARG2} and then get the value in the script with {0}, {1}...
+* Since you have to use {0} for \*scripts\*' arguments, you have to use PlaceholderAPI placeholders to get the menu's arguments: `%trmenu_args_0%,%trmenu_args_1%, %trmenu_args_2%...`
 
 ```yaml
 'Health':
   update: 20
   display:
-    material: 'Red Stained Glass Pane'
+    material: RED_STAINED_GLASS_PANE
     name: 'Health'
     lore:
     - ''
