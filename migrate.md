@@ -15,7 +15,7 @@ description: Migrate configuration files from other menus into TrMenu's format
 
 ## How to migrate menus?
 
-### Seperated Files
+### Separated Files
 
 * To migrate files speerately, put the file in your TrMenu folder and execute this command from the console: 
 * Examples:
