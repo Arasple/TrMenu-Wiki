@@ -14,7 +14,7 @@
   * [Options](menu/structure/options.md)
   * [Bindings](menu/structure/bindings.md)
   * [Events](menu/structure/events.md)
-  * [Icons](menu/structure/icons.md)
+  * [Buttons](menu/structure/icons.md)
   * [Internal-Functions](menu/structure/internal-functions.md)
   * [Tasks](menu/structure/tasks.md)
 * [Icons](menu/icons/README.md)

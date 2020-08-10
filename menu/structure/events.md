@@ -1,38 +1,44 @@
 ---
-description: 对菜单的一些事件执行条件动作反应
+description: Perfom (conditional) actions when opening/closing the menu
 ---
 
 # Events
 
-## 示例
+## Example
 
 ```yaml
-#
-# 菜单的事件处理
-#
 Events:
-  # 开启菜单事件
+ #Open events
   Open:
-    - requirement: 'hasPerm.trmenu.use or is.{reason}.RELOAD or is.{reason}.CONSOLE'
+    #Condition which requires the player to have the permission trmenu.use to open it
+    #OR if he reopened the menu because of the auto-reload
+    #OR if the console opened the menu for the player. 
+    - condition: 'hasPerm.trmenu.use or is.{reason}.RELOAD or is.{reason}.CONSOLE'
+      #Actions executed if the player has the permission trmenu.use.
       actions:
         - 'sound: BLOCK_CHEST_OPEN-1-0'
-      deny-actions:
+      #Actions executed if the player doesn't have the permission trmenu.use.
+      deny:
         - 'sound: ENTITY_ITEM_BREAK-1-0'
-        - 'title: <title=&c&l权限不足><subtitle=&7&l本菜单需要权限 &6&ltrmenu.use &7&l方能浏览>'
+        - 'title: <title=&c&lPermission Required><subtitle=&7&lYou need permission &6&ltrmenu.use &7&lto open this menu>'
+        #The return action won't let the menu open.
         - 'return'
-  # 关闭菜单事件
+  #Close events
   Close:
+    #A simple sound action
     - 'sound: BLOCK_CHEST_CLOSE-1-0'
 ```
 
-## 注意
+## Note
 
-* 事件中的反应写法后面会详解
-* 在开启菜单事件中，{reason} 变量将返回
+* The conditions will be explained in details later
+* In the open menu event, the {reason} variable will return
 
   ```text
   me.arasple.mc.trmenu.api.events.MenuOpenEvent.Reason
   ```
 
-* 若执行 return 动作，事件将被取消
+  You can see how it is used in the example above, we check if the menu has been opened for the player by the console or if it was reopen for the player because of a reload.
+
+* If the `return` action is executed,  the event will be canceled. You can see that we use this in the open event of the example in the deny commands of the condition. This way, if the player doesn't met the condition, it won't open the menu.
 

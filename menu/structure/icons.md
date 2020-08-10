@@ -1,29 +1,27 @@
----
-description: 图标将显示物品，且可交互执行一定反应
----
+# Buttons
 
-# Icons
-
-## 示例
+## Example
 
 ```yaml
 #
-# 菜单的图标
+# Menu Button
 #
-Icons:
-  # 图标的唯一 ID, 可配合布局使用
-  '#':
-    # 显示图标的动态更新周期, 若设置多个则依次对应为 Material, Name, Lore, Slots
-    # 设置一个即为所有项相同更新周期
+Buttons:
+  # The identifier of the icon which can be used in the layout.
+  '|':
+    #The dynamic update interval of the button's properties.
+    #If multiples intervals are set, they will correspond in that 
+    #order to the Material, the Name, the Lore and the Slots.
+    #If you set only one number like that `update: #` it will apply for all 
     update: [-1, 10, 15, -1]
-    # 菜单的显示部分
+    #The display section of the item
     display:
       material: 'Gray Stained Glass Pane'
       name: ['&fTr&7Menu', '&7Tr&8Menu', '&8Tr&0Menu','&7Tr&8Menu']
       lore:
         - - '&7Thanks &f:> &7for using!'
         - - '&7Thanks &f:) &7for using!'
-    # 点击菜单后执行的动作
+    # 
     actions:
       all: 'sound: BLOCK_NOTE_BLOCK_PLING-1-2'
 ```
