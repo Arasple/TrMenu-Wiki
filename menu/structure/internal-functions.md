@@ -1,29 +1,35 @@
 ---
-description: 可在菜单内快速调用的内置脚本
+description: Built-in scripts which can be called quickly and easily in the menu.
 ---
 
-# Internal-Functions
+# Built-in Scripts
 
-## 示例
+## Examples
 
-{% code title="无参数脚本" %}
+{% code title="Script without arguments" %}
 ```yaml
 #
-# 菜单内置的自定义脚本变量
-# 通过 ${ID_参数_参数} 的方式可以调用
+# A simple custom script
+# The returned value can be obtained with ${ID_OF_THE_SCRIPT}
 #
 
 Functions:
   health: |-
-    function math(){
+    function health(){
       return player.getHealth()
     }
-    math()
+    health()
 ```
 {% endcode %}
 
-{% code title="带参数脚本" %}
+{% code title="Script with arguments" %}
 ```yaml
+#
+# You can create a script wich requires arguments 
+# You can specify them with ${ID_arg1_arg2_...} 
+# and use them in the script with {0}, {1}, ....
+#
+
 Functions:
   flash: |-
     function flash() {
@@ -34,7 +40,7 @@ Functions:
 ```
 {% endcode %}
 
-## 调用
+## Usage
 
 * 每个内置脚本都有独一无二的 Id 标识
 * 在菜单内容中，你可以使用 **${Id}** 的形式调用

@@ -1,3 +1,7 @@
+---
+description: Buttons format
+---
+
 # Buttons
 
 ## Example
@@ -57,30 +61,30 @@ Icons:
           all: 'tell: Hello, VIP User!'
 ```
 
-## 结构
+## Structure
 
-* 更新周期
-  * 材质
-  * 名称
+* Update cycle
+  * Material
+  * Name
   * Lore
-  * 槽位
-* 刷新周期（重新计算优先级）
-* 显示部分
-* 动作部分
-* 子图标
-  * 条件
-  * 优先级
-  * 是否继承
-  * 显示部分
-  * 动作部分
+  * Slot
+* Refresh cycle \(recalculates icons priorities\)
+* Display section
+* Actions section
+* Conditionnal icons
+  * Condition
+  * Priority
+  * Inherit
+  * Display section
+  * Actions section
 
-## 注意
+## Note
 
-* 所有图标均配置在 **Icons** 节点下
-* 更新周期支持多个属性（材质，名称，Lore，槽位）的独立周期，若只配置一个则默认全部（如 v1）
-* 子图标优先级按降序，选取第一个符合条件的子图标
-* 默认情况下，子图标仅继承默认图标的位置、材质，若开启继承且未设置名称，Lore，则将继承
-* 材质、名称、Lore、槽位等均支持动态效果
+* All conditionnal icons are configured under the Icons section
+* You can set a different update cycle for each properties. If only is set, all will be affected.
+* For icons, the higher the number is, the higher the priority is.
+* By default, all conditionnal icons inherit the materials and slots. If \`inherit: true\` is defined, it will also inherit the name, lore and amount \(except if they are specified\).
+* The material, the name, lore, slots, etc... all support dynamic effects.
 
 {% page-ref page="../icons/display/" %}
 

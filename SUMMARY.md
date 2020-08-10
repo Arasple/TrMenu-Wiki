@@ -15,7 +15,7 @@
   * [Bindings](menu/structure/bindings.md)
   * [Events](menu/structure/events.md)
   * [Buttons](menu/structure/icons.md)
-  * [Internal-Functions](menu/structure/internal-functions.md)
+  * [Built-in Scripts](menu/structure/internal-functions.md)
   * [Tasks](menu/structure/tasks.md)
 * [Icons](menu/icons/README.md)
   * [Update](menu/icons/update.md)
