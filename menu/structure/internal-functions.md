@@ -42,8 +42,8 @@ Functions:
 
 ## Usage
 
-* 每个内置脚本都有独一无二的 Id 标识
-* 在菜单内容中，你可以使用 **${Id}** 的形式调用
+* Each script must have a unique identifier
+* You can use `${SCRIPT_IDENTIFIER}` to get the value returned by a script
 * 若需提供参数，则按照 **${Id\_参数1\_参数2}** 的格式调用
 * 参数在脚本中以 {0}, {1} ... 的形式使用，若需要菜单传参，则使用 PlaceholderAPI 变量
 
