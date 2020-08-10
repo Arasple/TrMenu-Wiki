@@ -21,7 +21,7 @@
   * [Update](menu/icons/update.md)
   * [Refresh](menu/icons/refresh.md)
   * [Display](menu/icons/display/README.md)
-    * [材质](menu/icons/display/material.md)
+    * [Material](menu/icons/display/material.md)
     * [名称](menu/icons/display/name.md)
     * [Lore](menu/icons/display/lore.md)
     * [数量](menu/icons/display/amount.md)
