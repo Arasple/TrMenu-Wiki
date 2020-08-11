@@ -28,7 +28,7 @@ Tasks:
 * Each task is made of 3 parts: the identifier, the interval, and the actions.
 * After opening the menu, all tasks will start and then stop when the menu is closed.
 
-{% page-ref page="../../actions/reactions.md" %}
+{% page-ref page="../../actions/action.md" %}
 
 
 

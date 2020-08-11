@@ -2,7 +2,7 @@
 description: 可以在图标的动作部分、菜单事件、周期任务等地方使用
 ---
 
-# Reactions
+# Action
 
 ## 常规写法
 

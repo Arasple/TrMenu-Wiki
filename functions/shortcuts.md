@@ -29,7 +29,7 @@ Shortcuts:
 * 触发动作后均执行 **反应**，且将取消事件
 * 若不需要该项快捷动作，直接删除节点或者设置为空
 
-{% page-ref page="../actions/reactions.md" %}
+{% page-ref page="../actions/action.md" %}
 
 
 
