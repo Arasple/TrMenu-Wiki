@@ -1,17 +1,19 @@
 ---
-description: 子图标属性，用以继承默认图标部分显示属性
+description: >-
+  Property for Conditionnal Icons to define whether to inherit the display
+  section of the default icon
 ---
 
 # Inherit
 
-## 示例
+## Example
 
 ```yaml
 inherit: true
 ```
 
-## 注意
+## Note
 
-* 默认情况下，子图标将继承默认图标的材质、槽位
-* 开启继承，且子图标未设置名称或Lore，则将从默认图标中继承
+* By default, conditionnal icons will only inherit the material and the slot of the default button icon
+* If `inherit` is set to `true`and the lore, name and/or amount is not set for that conditionnal icon, they will be inherited from the default button icon
 

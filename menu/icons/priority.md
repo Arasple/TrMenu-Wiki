@@ -1,22 +1,22 @@
 ---
-description: 子图标的属性，用以定位计算先后
+description: Priorities of conditionnal icons
 ---
 
 # Priority
 
-## 示例
+## Example
 
 ```yaml
 priority: 20
 ```
 
-## 注意
+## Note
 
-* 该项仅对子图标有效
-* 若不设置，则默认优先级为 **-1**
-* 选取条件子图标时，按优先级**降序**依次计算子图标到满足条件的为止
+* This property is only available on conditionnal icons
+* **If not set, the priority will be -1**
+* When checking for conditions, the conditionnal icons will be checked by their priority starting from the one with the highest number
 
 {% hint style="info" %}
-当图标仅有 **一个优先级图标** 需求时，可以不配置优先级
+If an icon has only 1 conditionnal icon, the priority is not required
 {% endhint %}
 
