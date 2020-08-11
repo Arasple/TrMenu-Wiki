@@ -1,23 +1,28 @@
-# 数量
+---
+description: Amount of items displayed
+---
 
-## 节点
+# Amount
+
+## Usage
 
 ```text
 (amt|amount)(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
-# 静态数量
+# Static amount
 amount: 10
 
-# 动态数量 (需要是返回数值的变量)
-# v2 版中此项不再默认进行 Js 运算
+# Dynamic quantity (the placeholder must return a number)
 amount: '%server_time_s%'
 ```
 
-## 注意
+## Note
 
-* 物品的动态数量不提供独立的更新周期设置，将随着每次物品刷新更新
+* Dynamic amounts will be updated alongside the material update interval
+* If the value given is 65 or above, the amount will stay at 64.
+* If the value is 0, the item won't be displayed.
 

@@ -1,16 +1,16 @@
 ---
-description: 物品的显示名称
+description: Display name of the item
 ---
 
-# 名称
+# Name
 
-## 节点
+Usage
 
 ```text
 (display)?(-)?name(s)?
 ```
 
-## 示例
+## Examples
 
 ```yaml
   'Next':
@@ -26,7 +26,9 @@ description: 物品的显示名称
       materials:
       - 'Red Stained Glass Pane'
       - 'Orange Stained Glass Pane'
-      # 动态名称，更新周期 5 ticks
+      # Dynamic name with an update interval of 5 ticks
       name: ['&cC&7lose', '&cCl&7ose', '&cClo&7se', '&cClos&7e', '&cClose']
 ```
+
+
 
