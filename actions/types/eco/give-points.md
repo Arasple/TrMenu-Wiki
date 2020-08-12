@@ -1,14 +1,22 @@
-# 给予点卷
+---
+description: Give the specified amount of points to the player using PlayerPoints
+---
 
-## 节点
+# Give-Points
+
+## Usage
 
 ```text
 (give|add|deposit)(-)?point(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'give-points: 100'
 ```
+
+{% page-ref page="../../../hook/playerpoints.md" %}
+
+
 

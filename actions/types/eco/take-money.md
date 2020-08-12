@@ -1,12 +1,16 @@
-# 扣除金币
+---
+description: Take the specified amount of money to the player using Vault
+---
 
-## 节点
+# Take-Money
+
+## Usage
 
 ```text
 (take|remove|withdraw)(-)?(money|eco|coin)(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'take-money: 100'

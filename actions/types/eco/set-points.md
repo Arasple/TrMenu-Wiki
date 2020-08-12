@@ -1,14 +1,22 @@
-# 设置点卷
+---
+description: Set the points of the player to the specified amount using PlayerPoints
+---
 
-## 节点
+# Set-Points
+
+## Usage
 
 ```text
 set(-)?point(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'set-points: 0'
 ```
+
+{% page-ref page="../../../hook/playerpoints.md" %}
+
+
 

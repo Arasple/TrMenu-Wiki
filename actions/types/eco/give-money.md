@@ -1,12 +1,16 @@
-# 给予金币
+---
+description: Give the specified amount of money to the player using Vault
+---
 
-## 节点
+# Give-Money
+
+## Usage
 
 ```text
 (give|add|deposit)(-)?(money|eco|coin)(s)?
 ```
 
-## 示例
+## Examples
 
 ```yaml
 - 'give-money: %server_time_s%'

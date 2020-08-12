@@ -1,14 +1,22 @@
-# 扣除点卷
+---
+description: Take the specified amount of points to the player using PlayerPoints
+---
 
-## 节点
+# Take-Points
+
+## Usage
 
 ```text
 (take|remove|withdraw)(-)?point(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'take-points: 100'
 ```
+
+{% page-ref page="../../../hook/playerpoints.md" %}
+
+
 
