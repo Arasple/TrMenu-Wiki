@@ -1,8 +1,8 @@
 ---
-description: 中断后面所有动作的执行或是跳出输入捕获器
+description: Stops the execution of all following actions or input catchers
 ---
 
-# 中断
+# Break
 
 ## 节点
 

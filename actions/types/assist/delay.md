@@ -1,16 +1,16 @@
 ---
-description: 延时后面的所有动作执行
+description: Delay all following actions by the specified value in ticks
 ---
 
-# 延时
+# Delay
 
-## 节点
+## Usage
 
 ```text
 delay|wait
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'tell: The diamond reward will be distributed in 3 seconds'
