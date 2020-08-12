@@ -1,23 +1,23 @@
 ---
-description: 给予玩家 JSON 格式物品或构建简单物品
+description: Give items to the player
 ---
 
-# 给予物品
+# Give-Item
 
-## 节点
+## Usage
 
 ```text
 (give|add)(-)?item(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
-# 给予半组显示名称为 "&bCustom Diamond" 的钻石
+# Give half a stack of diamonds with the name `&bCustom Diamond`
 - 'give-item: material:DIAMOND,amount:32,name:&bCustom Diamond'
 ```
 
-## 注意
+## Note
 
-* 支持给予通过命令转换的 JSON 格式物品
+* Supports items in JSON format converted via the `/trmenu item toJson` command
 

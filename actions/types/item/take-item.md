@@ -1,31 +1,31 @@
 ---
-description: 从玩家背包中扣除指定的物品
+description: Take items from the player's inventory
 ---
 
-# 扣除物品
+# Take-Items
 
-## 节点
+## Usage
 
 ```text
 (take|remove)(-)?item(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
-# 扣除一组钻石
+# Take a specified amount of items
 - 'take-item: material:DIAMOND,amount:64'
 ```
 
 ```yaml
-# 扣除一组铁锭和半组金锭
+# Take a stack of iron ingots and half a stack of gold ingots
 - 'take-item: material:IRON_INGOT,amount:64;material:GOLD_INGOT,amount:32'
 ```
 
-## 注意
+## Note
 
-* 扣除物品的动作并**不会主动检测**玩家背包是否包含该物品，实现商店需要配合条件表达式
-* 物品特征写法和其它部分完全统一
+* This action **does not check** whether the player has the required items or not
+* The item material must be unified with each parts seperated by a `_`
 
 {% page-ref page="../../../functions/item-identifiers.md" %}
 
