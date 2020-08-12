@@ -1,16 +1,16 @@
 ---
-description: 为单独玩家播放音效
+description: Play sounds to the player
 ---
 
-# 音效
+# Sound
 
-## 节点
+## Usage
 
 ```text
 (play)?(-)?sound
 ```
 
-## 示例
+## Examples
 
 ```yaml
 - 'sound: BLOCK_ANVIL_HIT-1-2'

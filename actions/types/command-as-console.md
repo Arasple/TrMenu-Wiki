@@ -1,19 +1,19 @@
 ---
-description: 调用控制台执行指定命令
+description: Execute commands as the console
 ---
 
-# 执行命令 \(CONSOLE\)
+# Command \(as CONSOLE\)
 
-## 节点
+## Usage
 
 ```text
 console
 ```
 
-## 示例
+## Example
 
 ```yaml
-- 'console: lp perm add %player_name% vip.user ;give %player_name% diamond 64'
+- 'console: lp user %player_name% permission set vip.user ;give %player_name% diamond 64'
 ```
 
 

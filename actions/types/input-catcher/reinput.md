@@ -1,12 +1,16 @@
-# 重新输入
+---
+description: Re-execute the current input catcher
+---
 
-## 节点
+# Re-Enter
+
+## Usage
 
 ```text
 re(-)?(catcher|input|enter|type)(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'retype'

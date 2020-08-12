@@ -1,16 +1,16 @@
 ---
-description: 向玩家发送操作栏上方的消息
+description: Send a message to the player in the action bar (above the hotbar)
 ---
 
-# 发送 Actionbar
+# ActionBar
 
-## 节点
+## Usage
 
 ```text
 action(bar)?(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'actionbar: Hello There'

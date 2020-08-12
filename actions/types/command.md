@@ -1,24 +1,24 @@
 ---
-description: 以玩家身份执行命令
+description: Execute commands as the player
 ---
 
-# 执行命令
+# Command \(as Player\)
 
-## 节点
+## Usage
 
 ```text
 command|cmd|player|execute
 ```
 
-## 示例
+## Examples
 
 ```yaml
 - 'command: spawn'
 ```
 
 ```yaml
-# 以 ; 分隔，可以执行多个命令
-# 下方动作等同于
+# Seperate multiple commands with ;
+# The action at the bottom is the equivalent of those:
 # - 'command: spawn'
 # - 'command: say I am Back'
 

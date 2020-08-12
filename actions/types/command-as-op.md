@@ -1,16 +1,16 @@
 ---
-description: 让玩家以 OP 身份执行命令
+description: Execute commands as an operator
 ---
 
-# 执行命令 \(OP\)
+# Command \(as OP\)
 
-## 节点
+## Usage
 
 ```text
 op(erator)?(s)?
 ```
 
-## 示例
+## Examples
 
 ```yaml
 - 'op: kick ${input}'
@@ -20,11 +20,12 @@ op(erator)?(s)?
 - 'op: kick ${input} ; broadcast I just kicked ${input}'
 ```
 
-## 注意
+## Note
 
 {% hint style="danger" %}
-当前情况下，Bukkit 所能实现此效果的方法只能是 **授予 OP，执行操作，撤销 OP**
+As of now, the only way Bukkit can make this action work is by granting the player OP, executing the command and then removing the OP.  
+This process can lead to serious problems with hackers trying to execute operator commands when they click on the button while the server is lagging \(= slower process\).
 
-在可以用 **CONSOLE** 控制台执行命令实现需求的情况下，**不推荐**使用此动作
+**It is recommended to use the `console` action type instead when possible, or else, give the player the correct permission before and removing it after the command.**
 {% endhint %}
 

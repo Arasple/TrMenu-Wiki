@@ -1,16 +1,16 @@
 ---
-description: 执行 JavaScript 脚本
+description: Execute JavScript scripts
 ---
 
-# 执行脚本
+# JavaScript
 
-## 节点
+## Usage
 
 ```text
 (java)?(-)?script(s)?|js
 ```
 
-## 示例
+## Examples
 
 ```yaml
 - 'js: player.setNoDamageTicks(600)'
@@ -18,7 +18,7 @@ description: 执行 JavaScript 脚本
 - 'js: bukkitServer.broadcastMessage("A Broadcast Message")'
 ```
 
-## 了解更多
+## More infos
 
 {% page-ref page="../../script/scripts.md" %}
 

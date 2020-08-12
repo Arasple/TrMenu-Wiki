@@ -1,31 +1,33 @@
 ---
-description: 向玩家发送一条原版 Json 消息，或利用 TrMenu 轻松构建一条
+description: >-
+  Send a message to the player with the JSON format OR use TrMenu's user
+  friendly format
 ---
 
-# 发送 Tellraw
+# Tellraw
 
-## 节点
+## Usage
 
 ```text
 tellraw|json
 ```
 
-## 示例
+## Examples
 
 {% tabs %}
-{% tab title="原版 JSON" %}
+{% tab title="JSON format" %}
 ```yaml
 - 'json: {"text":"Hello World!"}'
 ```
 {% endtab %}
 
-{% tab title="构建消息 1" %}
+{% tab title="TrMenu\'s Format 1" %}
 ```
 - 'json: Hello World! <ClickMe?command=spawn&hover=to spawn> <--- Click That'
 ```
 {% endtab %}
 
-{% tab title="构建消息 2" %}
+{% tab title="TrMenu\'s Format 2" %}
 ```
 - 'json: &3Hello, &b{player_name}&3, Buy Ranks on our <&2&nstore?url=https://store.example.net> &3site.'
 ```

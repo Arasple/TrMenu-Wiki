@@ -1,16 +1,16 @@
 ---
-description: 向玩家发送一条普通消息
+description: Send a message to the player
 ---
 
-# 发送消息
+# Message
 
-## 节点
+## USage
 
 ```text
 tell|send|message|msg|talk|say
 ```
 
-## 示例
+## Examples
 
 ```yaml
 - 'tell: Hello There'

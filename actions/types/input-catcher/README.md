@@ -1,16 +1,16 @@
 ---
-description: 为玩家创建输入捕获器，并根据输值做出反应
+description: Ask the player to provide an input and get its value
 ---
 
-# 输入捕获
+# Input Catcher
 
-## 节点
+## Usage
 
 ```text
 (input)?(-)?catcher(s)?
 ```
 
-## 旧版写法示例
+## Example of the Old version
 
 ```yaml
 - |-
@@ -25,67 +25,67 @@ description: 为玩家创建输入捕获器，并根据输值做出反应
 
 {% tabs %}
 {% tab title="Type" %}
-捕获器的类型
+Type of the catcher \(see below\)
 {% endtab %}
 
 {% tab title="Before" %}
-玩家输入内容之前，执行的动作
+Actions executed before that the player inputs a message
 {% endtab %}
 
 {% tab title="Valid" %}
-玩家输入值，并且满足 Require 条件时执行的动作
+Actions executed when the input is given and when the requirements are met \(if defined\)
 {% endtab %}
 
 {% tab title="Invalid" %}
-玩家输入值，并且不满足 Require 条件时执行的动作
+Actions executed when the requirements are not met
 {% endtab %}
 
 {% tab title="Require" %}
-玩家输值后，满足此条件则执行 Valid 动作，否则执行 Invalid 中动作
+Once the player inputs a message, if the conditions are met, the Valid actions will be executed, else, the Invalid ones will
 {% endtab %}
 {% endtabs %}
 
-## 高级写法示例
+## Example of the New Advanced version
 
 ```yaml
 - catcher:
 
     target:
       type: CHAT
-      before: 'tell: 请输入一名玩家的名称'
-      cancel: 'tell: 已取消捕获器'
+      before: 'tell: Enter a player name'
+      cancel: 'tell: Cancelled...'
       reactions:
-        - condition: 'isOnline.${input_target}'
-          execute: 'tell: 名称确认. ${input_target}'
+        - condition: 'bukkitServer.getOfflinePlayer("${input_target}").hasPlayedBefore() || isOnline.${input_target}'
+          execute: 'tell: Player selected. ${input_target}'
           deny:
-            - 'tell: 抱歉, 但玩家 ${input_target} 不在线'
+            - 'tell: ${input_target} has never played on this server before!'
             - 'return'
 
     amount:
       type: CHAT
-      before: 'tell: 请提供支付数额'
-      cancel: 'tell: 已取消捕获器'
+      before: 'tell: Provide an amount to pay'
+      cancel: 'tell: Cancelled'
       reactions:
         - condition: 'isNumber.${input_amount}'
           execute:
-            - 'tell: 数额确认. ${input_amount}'
+            - 'tell: Amount selected. $${input_amount}'
             - 'command: pay ${input_target} ${input_amount}'
           deny:
-          - 'tell: 请提供有效数字'
+          - 'tell: You didn''t provide a valid number!'
           - 'retype'
 ```
 
-* 执行到中断动作 **Return** 将会中断该输入捕获器
-* 执行到重新输入动作 **Retype** 将重新执行当前的子捕获器
+* The `return`action will stop the following input catchers and actions
+* The `retype`action will re-execute the input catcher
 
 {% page-ref page="reinput.md" %}
 
-## 类型
+## Types of Input Catcher
 
 * CHAT
-  * 捕获玩家发送到聊天框的内容
+  * Gets the input of the player from the chat
 * SIGN
-  * 向玩家发送一个虚拟木牌，捕获输入的内容
+  * Makes a sign pop-up and gets the input of the player
 * ANVIL
-  * 向玩家发送一个虚拟铁砧，捕获命名的内容
+  * Makes an anvil pop-up and gets the input of the player
 

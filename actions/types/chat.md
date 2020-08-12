@@ -1,21 +1,23 @@
 ---
-description: 模拟玩家发送聊天框内容，可以是命令、聊天
+description: >-
+  Send the given content in the chat as the player, can be a message or a
+  command
 ---
 
-# 执行发送
+# Player's chat
 
-## 节点
+## Usage
 
 ```text
 chat
 ```
 
-## 示例
+## Examples
 
 ```yaml
-# 支持 ; 分隔多条内容
+# Supports ; for multiples contents
 - 'chat: I Love TabooLib :);For real'
-# 支持模拟执行命令
+# Can execute commands too
 - 'chat: /quit'
 ```
 

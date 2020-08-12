@@ -1,16 +1,16 @@
 ---
-description: 跨服传送玩家到 BungeeCord 下的其它子服
+description: Send the player to the specified server via BungeeCord
 ---
 
-# 跨服传送
+# Bungee Server
 
-## 节点
+## Usafe
 
 ```text
 bungee|server|connect
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'server: Lobby'
