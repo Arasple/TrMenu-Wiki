@@ -1,16 +1,16 @@
 ---
-description: 关闭菜单而不执行 MenuEvents.Close 的反应
+description: Closes the menu wihout executing `MenuEvents.Close`
 ---
 
-# 关闭菜单 \(静默\)
+# Close \(Silent\)
 
-## 节点
+## Usage
 
 ```text
 (force|silent)(-)?close
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'silent-close'

@@ -1,16 +1,16 @@
 ---
-description: 重新计算所有优先级图标并应用图标物品
+description: Recalculate all conditionnal icons and apply icon items
 ---
 
-# 刷新图标
+# Refresh
 
-## 节点
+## Usage
 
 ```text
 (icon)?(-)?(refresh|update)
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'refresh'

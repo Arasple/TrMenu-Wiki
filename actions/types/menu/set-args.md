@@ -1,14 +1,22 @@
-# 设置参数
+---
+description: Redefine the arguments
+---
 
-## 节点
+# Set-Args
+
+## Usage
 
 ```text
 set(-)?arg(ument)?(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
-- 'set-arguments: `Custom Argument` 10 Hello'
+- 'set-args: `Custom Argument` 10 Hello'
 ```
+
+## Note
+
+* You can use \`\` to specify an argument of multiple words
 

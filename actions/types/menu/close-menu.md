@@ -1,12 +1,16 @@
-# 关闭菜单
+---
+description: Closes the menu
+---
 
-## 节点
+# Close
+
+## Usage
 
 ```text
 close
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'close'

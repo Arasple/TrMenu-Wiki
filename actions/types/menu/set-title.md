@@ -1,14 +1,22 @@
-# 设置标题
+---
+description: Redefine the title of the menu
+---
 
-## 节点
+# Set-Title
+
+## Usage
 
 ```text
 set(-)?title
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'set-title: CUSTOM_TITLE'
 ```
+
+## Note
+
+* Resets when changing layouts
 

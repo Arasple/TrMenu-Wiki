@@ -1,19 +1,23 @@
-# 切换页码
+---
+description: Set the current layout to the specified one
+---
 
-## 节点
+# Page
+
+## Usage
 
 ```text
 ((set|switch)?(-)?(shape|page))|shape|page
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'page: 0'
 ```
 
-## 注意
+## Note
 
-* 页码从 0 开始，例如 0 对应第一页，1 对应第二页
-* 你可以使用变量
+* The layouts numbers start from 0, so the layout 0 is the first one, the layout 1 is the second etc...
+* You can use placeholders and arguments
 
