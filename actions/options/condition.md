@@ -1,15 +1,19 @@
+---
+description: Execute actions if the conditioons are met
+---
+
 # Condition
 
-## 节点
+## Usage
 
 ```text
 <(r|require(ment)?|condition)[:=]( )?(.+>)
 ```
 
-## 示例
+## Example
 
 ```yaml
-- 'tell: VIP Message<Condition=hasPerm.user.vip>'
+- 'tell: VIP Message<Condition=hasPerm.group.vip>'
 ```
 
 {% page-ref page="../../script/expressions/" %}

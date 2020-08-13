@@ -1,14 +1,22 @@
+---
+description: Delay the execution of actions
+---
+
 # Delay
 
-## 节点
+## Usage
 
 ```text
 <(d|delay|wait)[:=]( )?([0-9]+[.]?[0-9]*>)
 ```
 
-## 示例
+## Example
 
 ```yaml
-- 'tell: Delayed Message<Delay=20>'
+- 'tell: Delayed Message of 1 second <Delay=20>'
 ```
+
+## Note
+
+* Delays use ticks
 

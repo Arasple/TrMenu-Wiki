@@ -1,17 +1,19 @@
 ---
-description: 可以在图标的动作部分、菜单事件、周期任务等地方使用
+description: >-
+  Actions can be used in the actions section of the buttons, in menu events,
+  tasks, input catchers, etc...
 ---
 
 # Action
 
-## 常规写法
+## Normal Example
 
 ```yaml
 actions:
  - 'tell: Hello, %player_name%'
 ```
 
-## 三元写法
+## Conditionnal Example
 
 ```yaml
 actions:
@@ -22,7 +24,7 @@ actions:
   - 'tell: You don''t have enough money.'
 ```
 
-## 多组三元写法
+## Multi-Conditions Example
 
 ```yaml
     actions:
@@ -43,11 +45,11 @@ actions:
             - 'tell: Prize 3'
 ```
 
-## 注意
+## Note
 
-* 使用多个反应组时，可以设置优先级，按降序执行
-* 若执行到任意**中断动作**，整个动作组将停止
-* 节点别称有许多，例如
+* When using multiples groups of conditions, you can set priorities to define the order to check the conditions 
+* If a break/return/cancel action is executed, the entire group will stop
+* There are many aliases for nodes names such as:
 
 ```yaml
 requirement: 'hasPoints.100'

@@ -1,15 +1,19 @@
+---
+description: Execute actions for all online players
+---
+
 # All Players
 
-## 节点
+## Usage
 
 ```text
 <((p|(for|all)?(-)?players))[:=]?(.+)?>
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'tell: broadcast message<Players>'
-- 'tell: broadcast message for VIP<Players:hasPerm.vip.user>'
+- 'tell: broadcast message for VIP<Players:hasPerm.group.vip>'
 ```
 
