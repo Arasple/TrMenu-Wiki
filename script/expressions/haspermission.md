@@ -1,10 +1,10 @@
 ---
-description: 判断玩家是否有一定权限
+description: Check if the player has the specified permission
 ---
 
 # hasPermission
 
-## 示例
+## Examples
 
 ```text
 hasPermission.userData.test

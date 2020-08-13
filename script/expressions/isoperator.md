@@ -1,10 +1,10 @@
 ---
-description: 判断本人是否为 Op
+description: Check if the player is an Operator
 ---
 
 # isOperator
 
-## 示例
+## Example
 
 ```text
 isOperator.

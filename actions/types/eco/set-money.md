@@ -16,3 +16,7 @@ set(-)?(money|eco|coin)(s)?
 - 'set-money: 0'
 ```
 
+{% page-ref page="../../../hook/vault.md" %}
+
+
+

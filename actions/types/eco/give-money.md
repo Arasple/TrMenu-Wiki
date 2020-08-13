@@ -17,3 +17,7 @@ description: Give the specified amount of money to the player using Vault
 - 'give-money: 100'
 ```
 
+{% page-ref page="../../../hook/vault.md" %}
+
+
+

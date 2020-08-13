@@ -1,10 +1,10 @@
 ---
-description: 判断玩家背包中的物品是否足够满足指定物品特征
+description: Check if the player has the specified item
 ---
 
 # hasItem
 
-## 示例
+## Example
 
 ```text
 hasItem.material:DIAMOND,amount:64

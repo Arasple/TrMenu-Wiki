@@ -1,10 +1,10 @@
 ---
-description: 判断是否为数字
+description: Checks if the specified entry is a number
 ---
 
 # isNumber
 
-## 示例
+## Example
 
 ```text
 isNumber.${input}

@@ -1,14 +1,52 @@
+---
+description: Built-In Cached Scripts accessible anytime in your menus
+---
+
 # Scripts
 
-## 对象
+## Objects
 
 | Name | Description |
 | :--- | :--- |
-| player | 玩家对象  org.bukkit.entity.Player |
-| bukkitServer | Bukkit 服务器对象 Bukkit.getServer\(\) |
-| utils | 辅助工具类 me.arasple.mc.trmenu.utils.Assist |
+| player | The player object: org.bukkit.entity.Player |
+| bukkitServer | The server object: Bukkit.getServer\(\) |
+| utils | Assist Utils \(TrUtils\): me.arasple.mc.trmenu.utils.Assist \(see below\) |
 
-## Assist Utils
+## Example
+
+```kotlin
+Buttons!
+  '*':
+    update: [-1, 5, 20, -1]
+    display:
+      material: <skull:9842dc3b917b1a796c303e15105474a8e315de7982b6ca54feafb5a4d13d4e95>
+      name:
+        - '&3&lSERVER'
+        - '&b&lSE&3&lRVER'
+        - '&3&lS&b&lER&3&lVER'
+        - '&3&lSE&b&lRV&3&lER'
+        - '&3&lSER&b&lVE&3&lR'
+        - '&3&lSERV&b&lER'
+      lore:
+        - ''
+        - '&8| &7RAM: &2%server_ram_used%/%server_ram_total% &7MB'
+        - '&8[ %progress_bar_{server_ram_used}_m:{server_ram_total}_c:&3■_p:&7■_r:&8■_l:20% &8]'
+        - ''
+        - '&b${flash_➥} &3Left-Click &7to open the help menu.'
+    actions:
+      left:
+        - 'open: help'
+
+Functions:
+  flash: |-
+    function flash() {
+      var display = new Date().getSeconds() % 2 == 0
+      return display ? "{0}" : "  "
+    }
+    flash()
+```
+
+## Assist Utils \(TrUtils\)
 
 ```kotlin
 package me.arasple.mc.trmenu.utils
