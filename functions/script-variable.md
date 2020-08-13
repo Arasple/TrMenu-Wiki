@@ -1,19 +1,19 @@
 ---
-description: 同内置脚本类似的用法，随处可用
+description: SImilar as the Built-In Script
 ---
 
-# ScriptPlaceholder
+# Script Placeholder
 
-## 格式
+## Usage
 
 ```yaml
 ${js: <function>}
 ```
 
-## 示例
+## Example
 
 ```yaml
-# Lore 中
+# Usage in Lore
 - '&8| &7ONLINE: &e%server_online% &6${js: utils.getOnlinePlayers().size() > 1 ? "Players" : "Player"}'
 ```
 

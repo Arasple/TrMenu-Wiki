@@ -106,9 +106,9 @@
 ## FUNCTIONS
 
 * [Arguments](functions/arguments.md)
-* [ItemIdentifiers](functions/item-identifiers.md)
-* [ScriptPlaceholder](functions/script-variable.md)
-* [RegisterCommands](functions/register-commands.md)
+* [Item Identifiers](functions/item-identifiers.md)
+* [Script Placeholder](functions/script-variable.md)
+* [Register Commands](functions/register-commands.md)
 * [Shortcuts](functions/shortcuts.md)
 * [Template](functions/template.md)
 
@@ -120,7 +120,7 @@
 * [PlayerPoints](hook/playerpoints.md)
 * [HeadDatabase](hook/headdatabase.md)
 * [Oraxen](hook/oraxen.md)
-* [SkinRestorer](hook/skinrestorer.md)
+* [SkinsRestorer](hook/skinrestorer.md)
 
 ## API
 
