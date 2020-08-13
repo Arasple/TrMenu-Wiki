@@ -1,14 +1,14 @@
-# 数据
+# Datas
 
-## 介绍
+## Introduction
 
-* TrMenu 目前提供 Meta / Data 两种变量数据变量
-* 前者（Meta）存储在内存中，将在插件重载后失效
-* 后者（Data）玩家独立存储在本地 SQLite 中，不会失效
+* TrMenu provides two data types: Meta and Data
+  * The Meta is stored in the plugin's memory and will be reset on reload
+  * The Data is stored in a SQLite database and will be kept until erased \(check the `/plugins/TabooLib/playerdata/`folder\)
 
-## 应用
+## Usage
 
-* 设置 Meta 或 Data 后，你都可以以变量的形式调用它们
+After you defined the Meta/Data, you can call them with the following placeholders:
 
 ```text
 {meta:<KeyName>}
@@ -18,7 +18,7 @@
 {data:<KeyName>}
 ```
 
-## 示例
+## Example
 
 ```yaml
 Bee:
@@ -47,11 +47,14 @@ Bee:
       - [10]
   actions:
     all:
+     # Here, we set the meta angryBee to true
       - 'set-meta: angryBee true'
       - 'sound: ENTITY_ENDERMAN_HURT-1-2'
+      # Then we refresh and remove it at the same time to make the icon change a bit random
       - 'rem-meta: angryBee &&& refresh &&& sound: ENTITY_SPIDER_STEP-1-2<Delay=80>'
       - 'refresh'
   icons:
+    # We then check for the angreeBee meta, if it equals true, it will display this icon
     - condition: 'equals.{meta:angryBee}.true'
       inherit: true
       display:

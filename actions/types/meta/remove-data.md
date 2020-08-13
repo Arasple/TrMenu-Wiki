@@ -1,12 +1,12 @@
-# 删除 Data
+# Rem-Data
 
-## 节点
+## Usage
 
 ```text
 (remove|rem|del)(-)?(data)(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'del-data: Key1'

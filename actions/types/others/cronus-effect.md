@@ -1,6 +1,6 @@
 # Cronus Effect
 
-## 节点
+## Usage
 
 ```text
 (cq|cronus)(-)?effect(s)?

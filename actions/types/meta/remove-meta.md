@@ -1,12 +1,12 @@
-# 删除 Meta
+# Rem-Meta
 
-## 节点
+## Usage
 
 ```text
 (remove|rem|del)(-)?(temp|var(iable)?|meta)(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'rem-meta: Key1'
