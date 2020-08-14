@@ -21,3 +21,5 @@ description: Give items to the player
 
 * Supports items in JSON format converted via the `/trmenu item toJson` command
 
+{% page-ref page="../../../functions/item-identifiers.md" %}
+

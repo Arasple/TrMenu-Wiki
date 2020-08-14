@@ -1,23 +1,33 @@
 # Item Identifiers
 
-## 格式
+## Usage
 
-* 同一个物品的不同特征匹配，用 , 分开
-* 多个物品特征用 ; 分开
+You can use Item Identifiers in various features of the plugin:
 
-## 示例
+{% page-ref page="../script/expressions/hasitem.md" %}
+
+{% page-ref page="../actions/types/item/take-item.md" %}
+
+{% page-ref page="../actions/types/item/give-item.md" %}
+
+## Example
 
 ```text
 material:DIAMOND,amount:64 ; material:EMERALD,amount:32
 ```
 
-## 特征
+## Properties
 
-* 材质: Material
-* 损伤值: Data
-* 数量: Amount
-* 名称: Name
-* 描述: Lore
-* 头颅材质: Texture
+* Material
+* Data
+* Amount
+* Name
+* Lore
+* Texture
 * ModelData
+
+## Note
+
+* Match items with the specified properties, seperate each property by a `,`
+* You can specify multiples items by seperating them with `;`
 
