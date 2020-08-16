@@ -47,3 +47,7 @@ Currently developing TrMenu v2 is a completely recoded version with more feature
 * Open-Source and has a Develeoper API
 * And much more ...
 
+{% hint style="info" %}
+English Locale wiki is made by **Tanguygab**
+{% endhint %}
+
