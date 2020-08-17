@@ -4,9 +4,9 @@ description: Migrate configuration files from other menus into TrMenu's format
 
 # Migrate
 
-## Supported Plugins
+## ปลั๊กอินที่รองรับ
 
-| Plugins | Supported? |
+| ปลั๊กอิน | รองรับ ? |
 | :--- | :--- |
 | TrMenu v1 | √ |
 | DeluxeMenus | × |
@@ -18,14 +18,14 @@ description: Migrate configuration files from other menus into TrMenu's format
 ### Separated Files
 
 * To migrate files speerately, put the file in your TrMenu folder and execute this command from the console: 
-* Examples:
+* ตัวอย่าง:
   * `trmenu migrate TrMenuV1 kits.yml`
   * `trmenu migrate TrMenuV1 oldMenus/menu.yml`
 
-### Whole Folder
+### ทั้งโฟลเดอร์
 
 * To migrate a whole folder of menus at once, put the file in your TrMenu folder and execute this command from the console: `trmenu migrate <plugin> <path to file>`
-* Example:
+* ตัวอย่าง:
   * `trmenu migrate TrMenuV1 oldMenus`
 
 If everything goes well, you can find all your migrated menus in `/TrMenu/migrated/`

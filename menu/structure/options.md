@@ -2,9 +2,9 @@
 description: Menu options
 ---
 
-# Options
+# ตัวเลือก
 
-## Example
+## ตัวอย่าง
 
 ```yaml
 #Menu Options (All are optional)
@@ -28,7 +28,7 @@ Options:
     - 'math'
 ```
 
-## Notes
+## หมายเหตุ
 
 * If the default arguments option is set, the arguments not provided by the player will be taken from the default arguments. Example:
   * `Default-Arguments: ["TrMenu", "Arasple"]`

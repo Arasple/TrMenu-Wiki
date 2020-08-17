@@ -1,8 +1,8 @@
 ---
-description: Understand the structure of TrMenu's configuration
+description: เข้าใจโครงสร้างของ TrMenu's configuration
 ---
 
-# Structure
+# โครงสร้าง
 
 ## Menu Configuration
 
@@ -15,17 +15,17 @@ description: Understand the structure of TrMenu's configuration
 * Options
   * Default Arguments
   * Default Layout page
-  * Hide Player's Inventory
+  * ซ่อน Inventory ของผู้เล่น
   * Minimum Click Delay
   * Required PlaceholderAPI Expansions
 * Binding
-  * Commands \(RegEx supported\)
-  * Items \(material, name, lore, texture for skulls\)
+  * คำสั่ง \(รองรับ RegEx\)
+  * ไอเท็ม \(material, name, lore, texture for skulls\)
 * Event
   * Open Requirements/Actions
   * Close Requirements/Actions
-* Buttons
-* Scripts
+* ปุ่ม
+* สคริปท์
 * Periodic Tasks
 
 

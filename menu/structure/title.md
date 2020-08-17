@@ -1,10 +1,10 @@
 ---
-description: The menu title is displayed at the top of the menu.
+description: หัวข้อที่แสดงอยู่ด้านบนสุดของเมนู
 ---
 
-# Title
+# หัวข้อ
 
-## Example
+## ตัวอย่าง
 
 ```yaml
 # The inventory's title
@@ -17,7 +17,7 @@ Title:
 Title-Update: 40
 ```
 
-## Note
+## หมายเหตุ
 
 * The `Title-Update: #` setting will only work with multiples titles.
 * If you only use a single title, you can use the `set-title: <text>` action to modify it within the menu. 

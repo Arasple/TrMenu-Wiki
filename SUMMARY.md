@@ -6,12 +6,12 @@
   * [ตั้งค่าปลั๊กอิน](start/setup.md)
 * [Migrate](migrate.md)
 
-## MENU
+## เมนู <a id="menu"></a>
 
-* [Structure](menu/structure/README.md)
-  * [Title](menu/structure/title.md)
+* [โครงสร้าง](menu/structure/README.md)
+  * [หัวข้อ](menu/structure/title.md)
   * [Layout](menu/structure/layout.md)
-  * [Options](menu/structure/options.md)
+  * [ตัวเลือก](menu/structure/options.md)
   * [Bindings](menu/structure/bindings.md)
   * [Events](menu/structure/events.md)
   * [Buttons](menu/structure/icons.md)
@@ -106,7 +106,7 @@
 * [Script Placeholder](functions/script-variable.md)
 * [Register Commands](functions/register-commands.md)
 * [Shortcuts](functions/shortcuts.md)
-* [Commads](functions/commands.md)
+* [คำสั่ง](functions/commands.md)
 
 ## HOOK
 
