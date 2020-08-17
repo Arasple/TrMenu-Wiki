@@ -1,7 +1,7 @@
 # Table of contents
 
 * [หน้าหลัก](README.md)
-* [Start](start/README.md)
+* [เริ่มต้น](start/README.md)
   * [Install](start/install.md)
   * [Setup](start/setup.md)
 * [Migrate](migrate.md)
