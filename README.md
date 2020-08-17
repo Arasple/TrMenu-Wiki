@@ -27,7 +27,7 @@ Currently developing TrMenu v2 is a completely recoded version with more feature
 * **Menu Binding:** Bind menus to commands \(RegEx support\), items or shortcuts \(Offhand, Sneak-Click-Player....\)
 * **Registered Commands:** Register commands to allow you to use the open commands in other plugins. It also allows you to have tab-completition for the command itself and even on arguments!
 * **Materials:** TrMenu supports various way to display the material of a button: CustomModelData, JSON, Custom Heads from HDB or a head value...
-* **Dynamic Fffects:** All buttons support the use of dynamic quantities, glow effect... 
+* **Dynamic Effects:** All buttons support the use of dynamic quantities, glow effect... 
 * **Dynamic Buttons:** They also support dynamic properties such as Materials, Names, Lores and Slots with an independent update interval.
 * **Buttons Interaction:** Supports a total of 22 click types including keys from 1 to 9. Every interaction is packet based
 * **Buttons Actions:** More than 40 actions are supported to perform instead of some commands in a better and easier way
@@ -48,6 +48,6 @@ Currently developing TrMenu v2 is a completely recoded version with more feature
 * And much more ...
 
 {% hint style="info" %}
-English Locale wiki is made by **Tanguygab**
+The English locale of the wiki was made by **Tanguygab**
 {% endhint %}
 
