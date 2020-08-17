@@ -1,5 +1,5 @@
 ---
-description: Al TrMenu's commands explained and detailed!
+description: รายละเอียดของคำสั่งทั้งหมด
 ---
 
 # คำสั่ง
@@ -10,7 +10,7 @@ Execute a TrMenu action for the specified player.
 
 ## /trmenu debug
 
-Enable/Disable the Debug mode to get more information in the console about everything related to TrMenu
+เปิด/ปิด Debug mode to get more information in the console about everything related to TrMenu
 
 ## /trmenu item &lt;toJson/fromJson&gt;
 
