@@ -20,8 +20,8 @@ TrMenu v2 est actuellement en développement, c'est une réécriture complète d
 * **Multi-Pages Support:** Il est possible de faire des menus avec plusieurs pages facilement sans avoir besoin de faire pleins de menus avec les même items!
 * **Basé sur les Packets:** Les menus de TrMenu sont complètement basé sur les packets, les rendants plus performant et securisés.
 * **Inventaire du Joueur:** TrMenu vous permet d'utiliser l'inventaire du joueur pour avoir 4\*9 slots en plus dans votre menu. Cette fonctionnalité marche avec les Multi-Pages!
-* **Titres de Menus Dynamiques:** Vous pouvez avoir plusieurs titres par menus qui se mettent à jour à un interval défini.
-* **Menu Events:** Execute actions when opening or closing a menu.
+* **Titres de Menus Dynamiques:** Vous pouvez avoir plusieurs titres par menus qui se mettent à jour à un certain interval.
+* **Évèvenements:** Éxecute des actions en ouvrant ou fermant un menu.
 * **Periodic Tasks:** Custom tasks executed in a defined period.
 * **Scripts:** Configure multiples custom scripts in your menu and get the result anywhere in your menu!
 * **Menu Binding:** Bind menus to commands \(RegEx support\), items or shortcuts \(Offhand, Sneak-Click-Player....\)
