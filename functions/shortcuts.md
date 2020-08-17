@@ -1,5 +1,5 @@
 ---
-description: Simlple shortcuts to execute actions
+description: Simple shortcuts to execute actions
 ---
 
 # Shortcuts

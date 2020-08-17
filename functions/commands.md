@@ -1,5 +1,5 @@
 ---
-description: Al TrMenu's commands explained and detailed!
+description: All TrMenu's commands explained and detailed!
 ---
 
 # Commands
