@@ -1,21 +1,21 @@
 ---
-description: 为显示物品添加 NBT 数据
+description: Add NBT tags to displayed items
 ---
 
 # NBT
 
-## 节点
+## Usage
 
 ```text
 nbt(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
 nbt:
   balabala: 12345
 ```
 
-* 支持使用变量
+* Supports placeholders
 

@@ -1,48 +1,50 @@
 ---
-description: 物品的描述
+description: Lore of the item
 ---
 
 # Lore
 
-## 节点
+## Usage
 
 ```text
 (display)?(-)?lore(s)?
 ```
 
-## 示例
+## Examples
 
 ```yaml
-# 嵌套 List，多组动态 Lore
+# Multiples groups of lore lines -> Dynamic effect
 lore:
-  - - '&7Thanks &f:> &7for using!'
-  - - '&7Thanks &f:) &7for using!'
+  - - ' '
+    - '&7Thanks &f:> &7for using!'
+  - - ' '
+    - '&7Thanks &f:) &7for using!'
 
-# 静态 Lore 描述
+# Simple static lore lines
 lore:
   - 'Hello There'
   - 'Hello TrMenu!'
 ```
 
-## 条件
+## Conditions
 
 {% hint style="info" %}
-此功能将在每次更新 Lore 时进行计算条件，可能影响插件性能表现
+Conditions are checked each time the lore is updated, which may impact performances
 {% endhint %}
 
 ```yaml
 lore:
   - 'Line 1'
   - 'Line 2'
-  # 当玩家有 vip.user 权限时显示此行
-  - 'You are VIP User<condition: hasPerm.vip.user>'
+  # Displays the line if the player has the permission `vip.user`
+  - 'You are a VIP User<condition: hasPerm.vip.user>'
   - 'Line 3'
 ```
 
-## 小技巧
+## Tips
 
-* Lore 中支持使用 \n 换行，也支持变量中的换行符号
-* 可以在配置文件中配置默认 Lore 行的颜色
+* The lore supports `\n` for line breaks \(works with placeholders too\)
+* The default color of lore lines can be configured in the `setting.yml` file
 
 
 

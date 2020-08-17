@@ -1,29 +1,29 @@
 ---
-description: 附魔发光效果
+description: Enchantment effect
 ---
 
-# 发光
+# Glow
 
-## 节点
+## Usage
 
 ```text
 (shiny|glow)(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
-# 直接设置布尔值，开启或关闭
+# Set a boolean (true/false) directly to set it on/off
 shiny: true
 
-# 动态效果（条件表达式）
+# Dynamic effect (conditions)
 shiny: 'hasPerm.vip.user and hasMoney.1000'
 ```
 
-## 误用示范
+## Unnecessary usages
 
 {% tabs %}
-{% tab title="繁琐的条件图标" %}
+{% tab title="Longer way" %}
 ```yaml
   A:
     refresh: 20
@@ -37,7 +37,7 @@ shiny: 'hasPerm.vip.user and hasMoney.1000'
 ```
 {% endtab %}
 
-{% tab title="简洁一步到位" %}
+{% tab title="Shorter way" %}
 ```yaml
   A:
     update: 20
@@ -49,7 +49,7 @@ shiny: 'hasPerm.vip.user and hasMoney.1000'
 {% endtab %}
 {% endtabs %}
 
-## 注意
+## Note
 
-* 物品的发光效果不提供独立的更新周期设置，将随着每次物品刷新更新
+* Dynamic sjiny effects will be updated alongside the material update interval
 

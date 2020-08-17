@@ -1,14 +1,23 @@
 # PlaceholderAPI
 
-## Menus
+## Links
+
+* [Spigot Page](https://www.spigotmc.org/resources/placeholderapi.6245/)
+* [Wiki](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki)
+* [GitHub Repository](https://github.com/PlaceholderAPI/PlaceholderAPI)
+* [DIscord Server](https://helpch.at/discord)
+
+## Placeholders
+
+### Menus
 
 ```text
 %trmenu_menus%
 ```
 
-> 返回服务器加载的菜单总数
+> Amount of menus loaded
 
-## Args
+### Args
 
 ```text
 %trmenu_args_0%
@@ -16,51 +25,51 @@
 %trmenu_args_0-5%
 ```
 
-> 返回指定的菜单参数或范围参数拼接值
+> Value of the specified argument or combined arguments from one to another
 
-## Meta
+### Meta
 
 ```text
 %trmenu_meta_Key%
 ```
 
-> 返回对于 Key 值的 Meta 值
+> Value of the specified Meta
 
-## Data
+### Data
 
 ```text
 %trmenu_data_Key%
 ```
 
-> 返回对于 Key 值的 Data 值
+> Value of the specified Data
 
-## Menu
-
-```text
-%trmenu_menu_pages% # 当前菜单的总页数
-%trmenu_menu_page% # 当前页码
-%trmenu_menu_next% # 下一页的页码
-%trmenu_menu_title% # 当前菜单的标题
-```
-
-> 返回玩家当前查看的菜单信息
-
-## EmptySlots
+### Menu
 
 ```text
-%trmenu_emptyslot_0% # 第一个空槽位
-%trmenu_emptyslot_1% # 第二个空槽位
-
-%trmenu_emptyslot_0_5-15% # 在 5-15 槽位范围内，第一个空槽位
+%trmenu_menu_pages% # Amount of pages
+%trmenu_menu_page% # Current page
+%trmenu_menu_next% # Next page
+%trmenu_menu_title% # Menu title
 ```
 
-> 返回玩家当前查看的菜单的空槽位信息
+> Information about the player's current opened menu
 
-## Js
+### EmptySlots
 
 ```text
-%trmenu_js_<Expression>% # 执行脚本
+%trmenu_emptyslot_0% # First empty slot
+%trmenu_emptyslot_1% # Second empty slot
+
+%trmenu_emptyslot_0_5-15% # The first empty slot between the 5 and 15 slots (included)
 ```
 
-> 返回 Js 脚本编译值
+> Empty slots of the current menu
+
+### Js
+
+```text
+%trmenu_js_<Expression>%
+```
+
+> Value of the specified Built-In Script
 

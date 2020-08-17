@@ -1,10 +1,10 @@
 ---
-description: 判断玩家有没有足够的金币余额
+description: Check if the player has the specified amount of money using Vault
 ---
 
 # hasMoney
 
-## 示例
+## Examples
 
 ```text
 hasMoney.100

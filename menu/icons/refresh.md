@@ -1,19 +1,17 @@
 ---
-description: 按优先级、条件重新计算子图标
+description: Recalculates the conditionnal icons
 ---
 
-# 刷新周期
+# Refresh
 
-## 示例
+## Example
 
 ```yaml
 refresh: 20
 ```
 
-## 注意
+## Note
 
-* 只有存在子图标时，此项才有效
-* 使用动作 Refresh，可以主动刷新图标，达到同样效果
-
-
+* This property will work only if there are any conditionnal icons.
+* You can also use the `refresh` action to do the same effect.
 

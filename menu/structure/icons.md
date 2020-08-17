@@ -1,29 +1,31 @@
 ---
-description: 图标将显示物品，且可交互执行一定反应
+description: Buttons format
 ---
 
-# 图标
+# Buttons
 
-## 示例
+## Example
 
 ```yaml
 #
-# 菜单的图标
+# Menu Button
 #
-Icons:
-  # 图标的唯一 ID, 可配合布局使用
-  '#':
-    # 显示图标的动态更新周期, 若设置多个则依次对应为 Material, Name, Lore, Slots
-    # 设置一个即为所有项相同更新周期
+Buttons:
+  # The identifier of the icon which can be used in the layout.
+  '|':
+    #The dynamic update interval of the button's properties.
+    #If multiples intervals are set, they will correspond in that 
+    #order to the Material, the Name, the Lore and the Slots.
+    #If you set only one number like that `update: #` it will apply for all 
     update: [-1, 10, 15, -1]
-    # 菜单的显示部分
+    #The display section of the item
     display:
       material: 'Gray Stained Glass Pane'
       name: ['&fTr&7Menu', '&7Tr&8Menu', '&8Tr&0Menu','&7Tr&8Menu']
       lore:
         - - '&7Thanks &f:> &7for using!'
         - - '&7Thanks &f:) &7for using!'
-    # 点击菜单后执行的动作
+    # 
     actions:
       all: 'sound: BLOCK_NOTE_BLOCK_PLING-1-2'
 ```
@@ -59,30 +61,30 @@ Icons:
           all: 'tell: Hello, VIP User!'
 ```
 
-## 结构
+## Structure
 
-* 更新周期
-  * 材质
-  * 名称
+* Update cycle
+  * Material
+  * Name
   * Lore
-  * 槽位
-* 刷新周期（重新计算优先级）
-* 显示部分
-* 动作部分
-* 子图标
-  * 条件
-  * 优先级
-  * 是否继承
-  * 显示部分
-  * 动作部分
+  * Slot
+* Refresh cycle \(recalculates icons priorities\)
+* Display section
+* Actions section
+* Conditionnal icons
+  * Condition
+  * Priority
+  * Inherit
+  * Display section
+  * Actions section
 
-## 注意
+## Note
 
-* 所有图标均配置在 **Icons** 节点下
-* 更新周期支持多个属性（材质，名称，Lore，槽位）的独立周期，若只配置一个则默认全部（如 v1）
-* 子图标优先级按降序，选取第一个符合条件的子图标
-* 默认情况下，子图标仅继承默认图标的位置、材质，若开启继承且未设置名称，Lore，则将继承
-* 材质、名称、Lore、槽位等均支持动态效果
+* All conditionnal icons are configured under the Icons section
+* You can set a different update cycle for each properties. If only is set, all will be affected.
+* For icons, the higher the number is, the higher the priority is.
+* By default, all conditionnal icons inherit the materials and slots. If \`inherit: true\` is defined, it will also inherit the name, lore and amount \(except if they are specified\).
+* The material, the name, lore, slots, etc... all support dynamic effects.
 
 {% page-ref page="../icons/display/" %}
 

@@ -1,35 +1,35 @@
 ---
-description: 更新图标描述中包含的变量，亦或是周期性动画
+description: Update the button's placeholdefrs and/dynamic effects
 ---
 
-# 更新周期
+# Update
 
-## 解释
+## Usage
 
-* 更新周期包括 4 个（材质，名称，Lore，槽位）
-* 你可以通过配置数组的形式独立设置它们
+* The update interval for the material, the name, lore and slots of the button
+* You can set them independently as an array to define different intervals for each property
 
-## 示例
+## Example
 
 ```yaml
-# 设置一个值，同时应用到 材质，名称，Lore，槽位 中
+# Same interval for all four properties
 update: 20
 ```
 
 ```yaml
-# 不完全设置
-# 分别设置材质，名称，Lore的更新周期为 20, -1, 15
-# 槽位的更新周期将选取其中最高的一个，即 20
+# Incomplete setting
+# Here, only the material, name and lore are set to: 20, -1, 15
+# The slot update interval will be set to the highest of the defined values, in this case: 20
 update: [20, -1, 15]
 ```
 
 ```yaml
-# 完全配置, 即按顺序分别对应
+# Complete setting, the numbers will match in the same order the: Material, Name, Lore and Slot
 update: [-1, 5, 25, 30]
 ```
 
-## 注意
+## Note
 
-* 不配置更新周期项，图标将默认不更新
-* 更新周期应与默认图标同级节点，子图标不支持自定义更新周期
+* If the update interval is not set, the button won't update at all.
+* Conditionnal icons do not support custom update interval and will just use the one from the default button icon.
 

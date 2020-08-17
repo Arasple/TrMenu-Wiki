@@ -1,12 +1,12 @@
 ---
-description: 忽略大小写的字符串匹配
+description: Check if the specified entries are the same ignoring the case
 ---
 
 # stringEqualsIgnoreCase
 
-## 示例
+## Example
 
 ```text
-equalsIgnoreCase.%player_name%.Arasple
+equalsIgnoreCase.%player_name%.arasple
 ```
 

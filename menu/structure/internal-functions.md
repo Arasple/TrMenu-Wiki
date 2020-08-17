@@ -1,29 +1,35 @@
 ---
-description: 可在菜单内快速调用的内置脚本
+description: Built-in scripts which can be called quickly and easily in the menu.
 ---
 
-# 内置脚本
+# Built-in Scripts
 
-## 示例
+## Examples
 
-{% code title="无参数脚本" %}
+{% code title="Script without arguments" %}
 ```yaml
 #
-# 菜单内置的自定义脚本变量
-# 通过 ${ID_参数_参数} 的方式可以调用
+# A simple custom script
+# The returned value can be obtained with ${ID_OF_THE_SCRIPT}
 #
 
 Functions:
   health: |-
-    function math(){
+    function health(){
       return player.getHealth()
     }
-    math()
+    health()
 ```
 {% endcode %}
 
-{% code title="带参数脚本" %}
+{% code title="Script with arguments" %}
 ```yaml
+#
+# You can create a script wich requires arguments 
+# You can specify them with ${ID_arg1_arg2_...} 
+# and use them in the script with {0}, {1}, ....
+#
+
 Functions:
   flash: |-
     function flash() {
@@ -34,18 +40,18 @@ Functions:
 ```
 {% endcode %}
 
-## 调用
+## Usage
 
-* 每个内置脚本都有独一无二的 Id 标识
-* 在菜单内容中，你可以使用 **${Id}** 的形式调用
-* 若需提供参数，则按照 **${Id\_参数1\_参数2}** 的格式调用
-* 参数在脚本中以 {0}, {1} ... 的形式使用，若需要菜单传参，则使用 PlaceholderAPI 变量
+* Each script must have a unique identifier
+* You can use `${SCRIPT_IDENTIFIER}` to get the value returned by a script
+* You can use arguments with \`${IDENTIFIER\_ARG1\_ARG2} and then get the value in the script with {0}, {1}...
+* Since you have to use {0} for \*scripts\*' arguments, you have to use PlaceholderAPI placeholders to get the menu's arguments: `%trmenu_args_0%,%trmenu_args_1%, %trmenu_args_2%...`
 
 ```yaml
 'Health':
   update: 20
   display:
-    material: 'Red Stained Glass Pane'
+    material: RED_STAINED_GLASS_PANE
     name: 'Health'
     lore:
     - ''

@@ -1,34 +1,38 @@
 ---
-description: 配置菜单的一些选项属性
+description: Menu options
 ---
 
-# 选项
+# Options
 
-## 示例
+## Example
 
 ```yaml
-#
-# 菜单的选项设置
-#
+#Menu Options (All are optional)
+
 Options:
-  # 是否启用菜单传参功能 （默认开启）
-  Arguments: true
-  # 默认填充参数
+  #Use the arguments of an open command as variables (Example: {0} for the first argument, {1} for the second etc...)
+  Arguments: false
+  #Default arguments when you open the menu without any (Example: [hello,all,1,5] )
   Default-Arguments: []
-  # 默认布局页码
+  #Default shape used when you open the menu.
   Default-Layout: 0
-  # 是否隐藏玩家容器
-  Hide-Player-Inventory: true
-  # 防频繁点击的间隔
+  #Hide the inventory of the player when he opens the menu (the player still has his items, TrMenu will just make the client think he doesn't until he closes the menu).
+  Hide-Player-Inv: false
+  #Delay between each click on a button
   Min-Click-Delay: 200
-  # 强制需要依赖的 PlaceholderAPI 拓展变量
-  Depend-Expansions: ['server', 'player', 'progress']
+  #Automatically download PlaceholderAPI's expansions
+  Depend-Expansions:
+    - 'server'
+    - 'player'
+    - 'progress'
+    - 'math'
 ```
 
-## 注意
+## Notes
 
-* 若设置 **默认填充参数** ，则将自动补全玩家未提供的参数，例如
-  * Default-Arguments: \["TabooLib", "Virus"\]
-  * 玩家提供的参数为 \["TabooLib"\], 则第二个参数将自动补全为 Virus
-* **默认菜单布局页码** 即在未指定页码的情况下默认打开菜单后初次显示的页码，在 Open 命令中也可以指定页码
+* If the default arguments option is set, the arguments not provided by the player will be taken from the default arguments. Example:
+  * `Default-Arguments: ["TrMenu", "Arasple"]`
+  * If the player provides only the argument `TrMenu`, then the second argument will be automatically defined as `Arasple`
+* The `default-Layout: #` option will show the first layout if the specified one doesn't exist. You can also set the layout if you open the menu with the command \`/trmenu open &lt;menu&gt;:&lt;layout&gt;
+  * Example: `/trmenu open ShopGUI+:2 Tanguygab`
 
