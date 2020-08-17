@@ -1,16 +1,16 @@
 ---
-description: Priorities of conditionnal icons
+description: ลำดับความสำคัญของไอคอนที่มีเงื่อนไข
 ---
 
 # Priority
 
-## Example
+## ตัวอย่าง
 
 ```yaml
 priority: 20
 ```
 
-## Note
+## หมายเหตุ
 
 * This property is only available on conditionnal icons
 * **If not set, the priority will be -1**

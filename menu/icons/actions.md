@@ -1,10 +1,10 @@
 ---
-description: Actions executed once you click the button
+description: การกระทำที่จะเกิดขึ้นเมื่อคุณกดปุ่ม
 ---
 
 # Actions
 
-## Example
+## ตัวอย่าง
 
 ```yaml
 'Close':
@@ -31,7 +31,7 @@ description: Actions executed once you click the button
         - 'refresh'
 ```
 
-## Click types
+## ประเภทการกด
 
 ```kotlin
 package me.arasple.mc.trmenu.api.inventory
@@ -172,7 +172,7 @@ actions:
     - 'tell: Hello'
 ```
 
-## Note
+## หมายเหตุ
 
 * Actions support multiple action types, the same as those in the Periodic Tasks and in the Menu Events. They will be listed and detailed later.
 * The `actions` section must be at the same level as the `display`section

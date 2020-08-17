@@ -17,7 +17,7 @@
   * [Buttons](menu/structure/icons.md)
   * [Built-in Scripts](menu/structure/internal-functions.md)
   * [Tasks](menu/structure/tasks.md)
-* [Icons](menu/icons/README.md)
+* [ไอคอน](menu/icons/README.md)
   * [Update](menu/icons/update.md)
   * [Refresh](menu/icons/refresh.md)
   * [Display](menu/icons/display/README.md)
@@ -30,7 +30,7 @@
     * [NBT](menu/icons/display/nbt.md)
   * [Actions](menu/icons/actions.md)
   * [Priority](menu/icons/priority.md)
-  * [Condition](menu/icons/condition.md)
+  * [Conditions](menu/icons/condition.md)
   * [Inherit](menu/icons/inherit.md)
 
 ## ACTIONS

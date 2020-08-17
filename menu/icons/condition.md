@@ -1,16 +1,16 @@
 ---
-description: Conditions required to display conditionnal icons
+description: เงื่อนไขที่ต้องการ เพื่อแสดงไอคอน
 ---
 
-# Condition
+# Conditions
 
-## Example
+## ตัวอย่าง
 
 ```yaml
 condition: hasPerm.mvp.user
 ```
 
-## Note
+## หมายเหตุ
 
 * **Conditions expressions will be explained later:**
 
