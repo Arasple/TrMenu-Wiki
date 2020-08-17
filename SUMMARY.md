@@ -106,7 +106,7 @@
 * [Script Placeholder](functions/script-variable.md)
 * [Register Commands](functions/register-commands.md)
 * [Shortcuts](functions/shortcuts.md)
-* [Commads](functions/commands.md)
+* [Commands](functions/commands.md)
 
 ## HOOK
 

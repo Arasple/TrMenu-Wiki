@@ -2,7 +2,7 @@
 description: Al TrMenu's commands explained and detailed!
 ---
 
-# Commads
+# Commands
 
 ## /trmenu action &lt;player&gt; &lt;action&gt;
 
