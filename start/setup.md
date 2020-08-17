@@ -20,7 +20,7 @@ description: 'หลังจากติดตั้งปลั๊กอิน
 {% endtab %}
 
 {% tab title="/items.yml" %}
-ที่เก็บข้อมูลไอเท็มที่สร้างด้วยคำสั่ง `/trmenu itemRepo`
+พื้นที่เก็บข้อมูลไอเท็ม ที่สร้างด้วยคำสั่ง `/trmenu itemRepo`
 {% endtab %}
 {% endtabs %}
 
