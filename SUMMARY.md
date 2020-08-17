@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Home](README.md)
+* [Accueil](README.md)
 * [Start](start/README.md)
   * [Install](start/install.md)
   * [Setup](start/setup.md)

@@ -2,7 +2,7 @@
 description: Bienvenue sur la documentation de TrMenu!
 ---
 
-# Home
+# Accueil
 
 ## Introduction
 
@@ -18,23 +18,23 @@ TrMenu v2 est actuellement en développement, c'est une réécriture complète d
 * **Infinité de Menus:** Vous pouvez faire autant de menus que vous voulez sans limites!
 * **Disposition avancée:** Un moyen visuel simple et intuitif pour positionner vos items dans vos menus.
 * **Multi-Pages Support:** Il est possible de faire des menus avec plusieurs pages facilement sans avoir besoin de faire pleins de menus avec les même items!
-* **Basé sur les Packets:** Les menus de TrMenu sont complètement basé sur les packets, les rendants plus performant et securisés.
+* **Basé sur les Packets:** Les menus de TrMenu sont complètement basé sur les packets, les rendant plus performant et sécurisés.
 * **Inventaire du Joueur:** TrMenu vous permet d'utiliser l'inventaire du joueur pour avoir 4\*9 slots en plus dans votre menu. Cette fonctionnalité marche avec les Multi-Pages!
-* **Titres de Menus Dynamiques:** Vous pouvez avoir plusieurs titres par menus qui se mettent à jour à un certain interval.
-* **Évèvenements:** Éxecute des actions en ouvrant ou fermant un menu.
-* **Periodic Tasks:** Custom tasks executed in a defined period.
-* **Scripts:** Configure multiples custom scripts in your menu and get the result anywhere in your menu!
-* **Menu Binding:** Bind menus to commands \(RegEx support\), items or shortcuts \(Offhand, Sneak-Click-Player....\)
-* **Registered Commands:** Register commands to allow you to use the open commands in other plugins. It also allows you to have tab-completition for the command itself and even on arguments!
-* **Materials:** TrMenu supports various way to display the material of a button: CustomModelData, JSON, Custom Heads from HDB or a head value...
-* **Dynamic Fffects:** All buttons support the use of dynamic quantities, glow effect... 
-* **Dynamic Buttons:** They also support dynamic properties such as Materials, Names, Lores and Slots with an independent update interval.
-* **Buttons Interaction:** Supports a total of 22 click types including keys from 1 to 9. Every interaction is packet based
-* **Buttons Actions:** More than 40 actions are supported to perform instead of some commands in a better and easier way
-* **Actions Options:** All actions support options such as delay, conditions, probability and for all players.
-* **Conditionnal Icons:** Each button can have conditionnals icons which will be displayed if a certain condition is met.
-* **Icon Inheritance:** Conditionnal icons can inherit the display properties of the default icon to reduce the size of the config thanks to a single line.
-* **Cached Scripts:** Scripts are automatically pre-compiled and cached.
+* **Titres de Menus Dynamiques:** Vous pouvez avoir plusieurs titres par menus qui se mettent à jour à un certain intervalle.
+* **Évènements:** Exécute des actions en ouvrant ou fermant un menu.
+* **Tâches Périodiques:** Vous pouvez créer des tâches qui exécuteront des actions avec un certain intervalle pendant que le menu est ouvert.
+* **Scripts:** TrMenu propose aussi une fonctionnalité pour créer des scripts dans vos menus et récupérer le résultat n'importe où!
+* **Ouverture de Menus:** Reliez vos menus à des commandes \(supportent RegEx\), des items ou des raccourcis \(Seconde main, Accroupi+Clic sur joueur...\)
+* **Commandes Enregistrés:** Enregistrez des commandes dans le plugin pour pouvoir utiliser vos commandes de menus dans d'autres plugins. Vous permet aussi d'activer la tab-completition pour les commandes et leurs arguments!
+* **Materiaux:** TrMenu supporte plusieurs moyens pour afficher des items: CustomModelData, JSON, Têtes custom de HDB...
+* **Effets Dynamiques:** Tout les items supportent des quantités/effets de surbrillance/... dynamiques
+* **Items Dynamiques:** Ils supportent aussi des propriétés dynamiques dont les Matériaux, les Noms, les Lores et les Slots avec un intervalle d'actualisation indépendant de chacun.
+* **Interaction d'Items:** TrMenu comporte un total de 22 types de clics incluant les touches 1 à 9.  Toutes les intéractions sont basés sur les packets
+* **Types d'Actions:** Plus de 40 types d'actions sont supportés dont la majorité pour être performé à la place de certaines commandes pour avoir un moyen plus simple et qui ne requiert pas forcément un autre plugin.
+* **Options d'Actions:** Toutes les actions supportent des options dont des Délais, des Conditions, des Probabilités et pour tout les joueurs.
+* **Items Conditionnels:** Chaque item peut avoir des items conditionnels qui seront affichés si leurs conditions sont remplies.
+* **Héritage d'Items:** Les items conditionnels peuvent hériter les propriétés de la section `display` the l'item par défaut pour réduire la taille de la config grâce à une simple ligne: `inherit: true`.
+* **Scripts mis en cache:** Les scripts sont automatiquement pre-compilés et mis en cache.
 * **Smart Conditions:** TrMenu let you user-friendly conditions syntaxes such as `hasMoney.100` or `hasPerm.your.permission`
 * **Input Catcher:** The Input Catcher consists of asking the player to input something in the chat, on a sign, or in an anvil, and then, based on a condition, will execute actions depending if the condition is met or not. You can use multiples Input Catcher one right after another one.
 * **Arguments:** When opening a menu with an binded command, you can provide arguments which can be used in the menu for various purposes, and even be changed later from the menu with actions.  
@@ -48,6 +48,6 @@ TrMenu v2 est actuellement en développement, c'est une réécriture complète d
 * And much more ...
 
 {% hint style="info" %}
-English Locale wiki is made by **Tanguygab**
+La version Française de la documentation a été faite par **Tanguygab**
 {% endhint %}
 
