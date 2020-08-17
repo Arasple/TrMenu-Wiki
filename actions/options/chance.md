@@ -1,12 +1,16 @@
-# 执行概率
+---
+description: Execute actions based on a percentage of chance
+---
 
-## 节点
+# Chance
+
+## Usage
 
 ```text
 <(c|chance|rate)[:=]( )?([0-9]+[.]?[0-9]*>)
 ```
 
-## 示例
+## Example
 
 ```yaml
 - 'give-item: material:DIAMOND<Chance=0.8>'

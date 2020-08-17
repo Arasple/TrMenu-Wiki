@@ -1,10 +1,10 @@
 ---
-description: 判断指定玩家是否为 Op
+description: Check if the specified player is an Operator
 ---
 
 # isPlayerOperator
 
-## 示例
+## Example
 
 ```text
 isPlayerOperator.BlackSKY

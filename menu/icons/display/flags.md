@@ -1,16 +1,16 @@
 ---
-description: 为显示物品添加 ItemFlags
+description: Add flags to the displayed items
 ---
 
-# 标签
+# Flags
 
-## 节点
+## Usage
 
 ```text
 flag(s)?
 ```
 
-## 示例
+## Example
 
 ```yaml
 flags:
@@ -18,7 +18,7 @@ flags:
 - 'HIDE_ATTRIBUTES'
 ```
 
-## 可用标签
+## Available Flags
 
 * HIDE\_ENCHANTS
 * HIDE\_ATTRIBUTES

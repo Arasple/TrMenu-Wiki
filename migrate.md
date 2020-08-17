@@ -1,15 +1,34 @@
 ---
-description: 将其他菜单插件的配置文件迁移到 TrMenu！
+description: Migrate configuration files from other menus into TrMenu's format
 ---
 
-# 迁移
+# Migrate
 
-## 支持插件
+## Supported Plugins
 
-* TrMenu v1.x
+| Plugins | Supported? |
+| :--- | :--- |
+| TrMenu v1 | √ |
+| DeluxeMenus | × |
+| BossShopPro | × |
+| ChestCommands | × |
 
-## 迁移方法
+## How to migrate menus?
 
-* 执行子命令 Migrate
-* /TrMenu Migrate TrMenuV1 \[File/Dir\]
+### Separated Files
+
+* To migrate files speerately, put the file in your TrMenu folder and execute this command from the console: 
+* Examples:
+  * `trmenu migrate TrMenuV1 kits.yml`
+  * `trmenu migrate TrMenuV1 oldMenus/menu.yml`
+
+### Whole Folder
+
+* To migrate a whole folder of menus at once, put the file in your TrMenu folder and execute this command from the console: `trmenu migrate <plugin> <path to file>`
+* Example:
+  * `trmenu migrate TrMenuV1 oldMenus`
+
+If everything goes well, you can find all your migrated menus in `/TrMenu/migrated/`
+
+To load the migrated menus, just copying them into the `/TrMenu/menus/` and execute `/trmenu reload`
 

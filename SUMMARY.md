@@ -2,8 +2,8 @@
 
 * [หน้าหลัก](README.md)
 * [เริ่มต้น](start/README.md)
-  * [Install](start/install.md)
-  * [Setup](start/setup.md)
+  * [ติดตั้งปลั๊กอิน](start/install.md)
+  * [ตั้งค่าปลั๊กอิน](start/setup.md)
 * [Migrate](migrate.md)
 
 ## MENU

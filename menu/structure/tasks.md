@@ -1,34 +1,34 @@
 ---
-description: 可自定义的周期任务，将在打开菜单后执行，关闭菜单后取消
+description: Custom tasks executed at the set interval for the time whenthe menu is opened
 ---
 
-# 周期任务
+# Tasks
 
-## 示例
+## Example
 
 ```yaml
 #
-# 菜单自定义周期性任务
+# Custom menu periodic tasks
 #
 
 Tasks:
-  # 任务 Id
+  # Task identifier
   tikTok:
-    # 周期 ( Ticks )
+    # Execution interval (In Ticks)
     period: 20
-    # 反应
+    # Actions executed
     task:
       - requirement: 'isOperator.'
         actions:
           - 'sound: BLOCK_NOTE_BLOCK_BIT-1-2'
 ```
 
-## 结构
+## Note
 
-* 每个周期任务由 **任务 Id、周期、反应** 三部分组成
-* 玩家开启菜单后，所有周期任务会启动，关闭菜单后会停止
+* Each task is made of 3 parts: the identifier, the interval, and the actions.
+* After opening the menu, all tasks will start and then stop when the menu is closed.
 
-{% page-ref page="../../actions/reactions.md" %}
+{% page-ref page="../../actions/action.md" %}
 
 
 

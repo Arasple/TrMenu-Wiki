@@ -1,29 +1,37 @@
 ---
-description: 绑定菜单到快捷命令打开 & 物品特征
+description: Bind the menu to commands and/or items
 ---
 
-# 绑定
+# Bindings
 
-## 示例
+## Example
 
 ```yaml
-#
-# 菜单绑定的快捷打开方式
-#
+#Ways to open the menu. 
 Bindings:
-  # 绑定命令, 支持正则
+  # Defines the commands used to open this menu.
   Commands:
-    - 'tester'
-  # 绑定到物品特征
+    - '(?i)example(-)?(gui)?(s)?'
+   #Defines the items which will open this menu when clicked.
   Items:
+    #Any compass
     - 'material:compass'
+    #Clocks with the lore `OPEN_MENU` 
+    - 'material:clock,lore:OPEN_MENU'
+    #Player Heads with the specified texture
+    - 'texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRmNDUyZDk5OGVhYmFjNDY0MmM2YjBmZTVhOGY0ZTJlNjczZWRjYWUyYTZkZmQ5ZTZhMmU4NmU3ODZlZGFjMCJ9fX0='
+
 ```
 
-## 注意
+## Note
 
-* 绑定命令支持**正则匹配**，例如添加 \(?i\) 前缀可以忽略大小写
-* 绑定命令支持空格 & 其它参数，插件将自动匹配并读取玩家提供的真实参数
-* 了解绑定 **物品特征** 的详细写法，请查看下面章节
+* Commands suppoprt RegEx ! For example, with `(?i)example(-)?(gui)?(s)?`:
+  * `(?i)` will make the command ignore the case: `/example` and `/eXamPle` would work.
+  * `(gui)?` and `(s)?` make `gui` and `s` optionnal in the command: `/example` , `/examplegui`and `/exampleguis` would work.
+* Binded commands support spaces and arguments, the plugin will automatically match and read the real arguments without 
+* To understand the syntax of binded items, please see the following wiki page:
 
-{% page-ref page="../../functions/item-identifiers.md" %}
+  {% page-ref page="../../functions/item-identifiers.md" %}
+
+
 

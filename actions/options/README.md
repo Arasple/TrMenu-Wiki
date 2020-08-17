@@ -1,10 +1,10 @@
 ---
-description: 每个动作可以配置独立的选项
+description: Each Action can have options to modify its execution
 ---
 
-# 选项
+# Options
 
-## 格式
+## Usage
 
 ```text
 <OptionName=OptionValue>

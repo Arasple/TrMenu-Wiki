@@ -1,18 +1,18 @@
 ---
-description: 子图标属性，为其显示设置条件
+description: Conditions required to display conditionnal icons
 ---
 
-# 条件
+# Condition
 
-## 示例
+## Example
 
 ```yaml
 condition: hasPerm.mvp.user
 ```
 
-## 注意
+## Note
 
-* 条件表达式写法后面会详解
+* **Conditions expressions will be explained later:**
 
 {% page-ref page="../../script/expressions/" %}
 

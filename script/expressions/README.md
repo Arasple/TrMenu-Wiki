@@ -1,24 +1,24 @@
 ---
-description: 通常为一行的脚本表达式，返回布尔值
+description: Easy to understand expression returning a boolean
 ---
 
-# 表达式
+# Expressions
 
-* TrMenu v2 提供全新的表达式写法，简单易懂
-* 暂时不支持自定义添加
-* 参数通常由 . 分开
+TrMenu v2 provides a new writing method for expressions more user-friendly  
+It doens't support custom expression at the moment  
+Parameters are most of the time seperated by a `.`
 
-## 示例
+## Example
 
 ```yaml
-# 同时拥有权限 test 和 等级 >= 10
+# Check if the player has both the permission test and 10 levels
 hasPerm.test and hasLevel.10
 ```
 
-## 连词
+## Meaning
 
 * and = &&
-  * "与"，需要相连的两部分均返回 true 时，表达式才返回 true
+  * The expression returns `true` only when both parts of the condition are met 
 * or = \|\|
-  * "或者"，需相连两部分任意一部分返回 true 时，表达式即返回 true
+  * The expression returns `true` when at least one of both parts of the conditions are met
 

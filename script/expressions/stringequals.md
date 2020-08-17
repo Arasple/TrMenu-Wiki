@@ -1,10 +1,16 @@
 ---
-description: 判断字符串匹配情况
+description: Check if the specified entries are the same
 ---
 
 # stringEquals
 
-## 示例
+## Original Format
+
+```text
+"string" == "string"
+```
+
+## Example
 
 ```text
 equals.%player_name%.Arasple

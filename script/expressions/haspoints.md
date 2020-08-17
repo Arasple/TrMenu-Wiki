@@ -1,12 +1,16 @@
 ---
-description: 判断玩家有没有足够点卷
+description: Check if the player has the specified amount of points using PlayerPoints
 ---
 
 # hasPoints
 
-## 示例
+## Example
 
 ```text
 hasPoints.100
 ```
+
+{% page-ref page="../../hook/playerpoints.md" %}
+
+
 

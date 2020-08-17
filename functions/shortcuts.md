@@ -1,15 +1,15 @@
 ---
-description: 提供一些简单的快捷动作，用于执行动作
+description: Simlple shortcuts to execute actions
 ---
 
-# 快捷绑定
+# Shortcuts
 
-## 配置
+Configuration
 
 {% code title="settings.yml" %}
 ```yaml
 #
-# 快捷操作执行动作
+# Actions Shortcuts Configuration
 #
 Shortcuts:
   Offhand: 'open: Example'
@@ -24,12 +24,12 @@ Shortcuts:
 ```
 {% endcode %}
 
-## 注意
+## Note
 
-* 触发动作后均执行 **反应**，且将取消事件
-* 若不需要该项快捷动作，直接删除节点或者设置为空
+* After the event is triggered, the actions will be executed and the event is cancelled
+* If a shortcut isn't used, you can set it to `[]`to disable it
 
-{% page-ref page="../actions/reactions.md" %}
+{% page-ref page="../actions/action.md" %}
 
 
 

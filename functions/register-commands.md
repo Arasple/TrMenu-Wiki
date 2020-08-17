@@ -1,34 +1,34 @@
 ---
-description: 在 settings.yml 配置该功能，你可以创建支持 TAB 补全的自定义命令
+description: Create your own commands with tab-completition!
 ---
 
-# 注册命令
+# Register Commands
 
-## 配置
+## Configuration
 
 {% code title="settings.yml" %}
 ```yaml
 #
-# 注册命令执行动作
-# (增改命令需要重启服务器, TAB补全才能生效)
+# Register commands with actions and arguments
+# Supports tab-completition!
+# (WARNING: A server restart is required to add, change or remove commands)
 #
 RegisterCommands:
-  # 主命令
+  # Command name
   openMenus:
-    # 别称
-    aliases: []
-    # 权限
+    # Command Aliases
+    # Required permission
     permission: null
-    # 无参数执行时
+    aliases: []
+    # Actions executed without any arguments
     execute:
-      - 'tell: &7Argument Required!'
-    # 参数及对应的反应
+      - 'tell: &7Argument `example` Required!'
+    # Arguments with their actions
     arguments:
       example: 'open: example'
 
 ```
 {% endcode %}
 
-* 任何修改保存配置文件后都将自动生效
-* 若新增命令，TAB 补全功能必须重启服务器才会有效
+* If a new command is added, you must restart the server, but you can edit the options here and they will update instantly
 
