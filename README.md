@@ -38,14 +38,14 @@ TrMenu v2 est actuellement en développement, c'est une réécriture complète d
 * **Conditions Simplifiées:** TrMenu propose des syntaxes de conditions simples comme`hasMoney.100` ou `hasPerm.your.permission`
 * **Capteur d'Entrée:** L'Input Catcher consiste à demander une question au joueur qui doit ensuite entrer un message dans le chat, sur une pancarte ou dans une enclume pour ensuite exécuter des actions si la condition a été remplie ou non. Vous pouvez utiliser plusieurs Input Catcher l'un après l'autre.
 * **Arguments:** En ouvrant un menu avec une commande reliée, vous pouvez spécifier des arguments que vous pouvez ensuite utiliser dans votre menu pour diverses choses. Vous pouvez même les rechanger plus tard dans le menu avec des actions.  
-* **Meta/Data Support:** You can also create metas or datas per players which can store values just like arguments, but metas are stored until a server restart and datas are always kept. They can be set, edited and removed from the menu and can be accessible wherever you want in it.
-* **Menu Template:** With the /trmenu template &lt;rows&gt; command, you can easily create a menu **design** without touching at the files and then get the configuration.
-* **Auto-Reload:** Menus will be auto reloaded instantly right after you save the file. 
-* **RGB colors:** For 1.16+ servers, RGB codes can be used with &{FFFFFF} or &{256,256,256}
-* Nodes ignore the case and have aliases
+* **Meta/Data Support:** Vous pouvez aussi créer des metas ou des datas différentes par joueurs qui peuvent stocker des valeurs, comme les arguments, mais les metas sont stockés jusqu'à un reload du plugin et les datas sont stockés pour toujours. Elles peuvent être créées, modifiées, et supprimées via les menus et peuvent être accédées n'importe où dedans.
+* **Modèle de Menus:** Avec la commande `/trmenu template <lignes>` , vous pouvez faire des **design** de menus et récupérer leur configuration facilement sans toucher aux dossier du plugin.
+* **Auto-Reload:** Les menus et autres fichiers de configurations sont automatiquement rechargés après avoir sauvegardé le fichier. 
+* **Couleurs RGB:** Pour les serveurs 1.16+, les couleurs RGB sont accessible avec &{FFFFFF} ou &{256,256,256}
+* Les paramètres ont des aliases et ne font pas attentions aux majuscules
 * Understandable node logic, detailed documentation 
-* Open-Source and has a Develeoper API
-* And much more ...
+* TrMenu est Open-Source et a une API pour les développeurs
+* Et bien plus! ...
 
 {% hint style="info" %}
 La version Française de la documentation a été faite par **Tanguygab**

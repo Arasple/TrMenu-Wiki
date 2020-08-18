@@ -1,13 +1,13 @@
 ---
-description: 'After downloading the jar file of the plugin, install it on the server.'
+description: 'Après avoir téléchargé le fichier jar du plugin, installez le sur le serveur.'
 ---
 
-# Install
+# Installation
 
-## Requirements
+## Pré-Requis
 
 {% hint style="info" %}
-At the first launch, TrMenu must be installed with an Internet connection
+Au premier démmarage, TrMenu doit avoir un accès à Internet.
 {% endhint %}
 
 | Server Software | Supported? |
@@ -18,10 +18,10 @@ At the first launch, TrMenu must be installed with an Internet connection
 | Arclight \(Forge\) | √ |
 | CatServer \(Bukkit+Forge\) | √ |
 | Mohist \(Bukkit+Forge\) | × |
-| Magma \(Bukkit+Forge\) | Not tested |
+| Magma \(Bukkit+Forge\) | Non testé |
 
 ## Installation
 
-* Drop the `TrMenu.jar` jar file into your plugins folder
-* Restart the server
+* Mettez le fichier `TrMenu.jar` dans votre dossier plugins
+* Redémarrer le serveur
 

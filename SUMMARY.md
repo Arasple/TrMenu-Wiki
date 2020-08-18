@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Accueil](README.md)
-* [Start](start/README.md)
-  * [Install](start/install.md)
+* [Début](start/README.md)
+  * [Installation](start/install.md)
   * [Setup](start/setup.md)
 * [Migrate](migrate.md)
 

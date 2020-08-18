@@ -1,5 +1,7 @@
 ---
-description: 'After installing the plugin, files will be generated in the plugins folder'
+description: >-
+  près avoir installé TrMenu,  des fichiers seront générés dans le dossier
+  plugins
 ---
 
 # Setup
@@ -8,26 +10,26 @@ description: 'After installing the plugin, files will be generated in the plugin
 
 {% tabs %}
 {% tab title="/settings.yml" %}
-Plugin's main configuration file.
+Configuration principale du plugin.
 {% endtab %}
 
 {% tab title="/menus/" %}
-Plugin's default menu loader folder
+Dossier par défaut de chargement des menus
 {% endtab %}
 
-{% tab title="/lang/en\_US.yml" %}
-You can edit most of the plugin's messages in the language file
+{% tab title="/lang/fr\_FR.yml" %}
+Vous pouvez modifier la majorité des messages du plugin dans le fichier langage
 {% endtab %}
 
 {% tab title="/items.yml" %}
-Storage for items created with the `/trmenu itemRepo` command
+Stockage pour items créés avec la commande `/trmenu itemRepo`
 {% endtab %}
 {% endtabs %}
 
 ## Setup
 
-* The `settings.yml` file is the main configuration file of the plugin.
-* The plugin will detect changes automatically and reload the file.
+* Le fichier `settings.yml` est la configuration principale de TrMenu.
+* Le plugin détectera tout changements automatiquement et rechargera le fichier.
 
 {% code title="settings.yml" %}
 ```yaml
@@ -35,15 +37,15 @@ Storage for items created with the `/trmenu itemRepo` command
 # Configuration
 #
 Options:
-  # Whether the debug mode should be enabled or not (more information will be sent to the console)
+  # Activer ou désactiver le mode debug (plus d'information sera envoyé dans la console)
   Debug: false
-  # Language of the plugin
-  # Available： zh_CN, zh_TW, en_US, fr_FR, th_TH, es_MX
-  Locale: en_US
-  # Whether to hide the Logo of the plugin in the console on startup
+  # Langage du plugin
+  # Disponible: zh_CN, zh_TW, en_US, fr_FR, th_TH, es_MX
+  Locale: en_US #Vous pouvez le modifier en fr_FR pour mettre le plugin en français
+  # Cacher le Logo du plugin dans la console au démmarage
   Hide-Logo: false
-  # When enabled TrMenu will get the player heads datas from Mojang's API
-  # [RECOMMENDED] If disabled, it will get them with https://github.com/Electroid/mojang-api
+  # Quand activé, TrMenu récupèrera les données des têtes des joueurs depuis l'API de Mojang
+  # [RECOMMENDED] Si désactivé, il les récupèrera avec https://github.com/Electroid/mojang-api
   Skull-Mojang-API: false
 
 #
