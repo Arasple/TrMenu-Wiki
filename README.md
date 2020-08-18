@@ -35,9 +35,9 @@ TrMenu v2 est actuellement en développement, c'est une réécriture complète d
 * **Items Conditionnels:** Chaque item peut avoir des items conditionnels qui seront affichés si leurs conditions sont remplies.
 * **Héritage d'Items:** Les items conditionnels peuvent hériter les propriétés de la section `display` the l'item par défaut pour réduire la taille de la config grâce à une simple ligne: `inherit: true`.
 * **Scripts mis en cache:** Les scripts sont automatiquement pre-compilés et mis en cache.
-* **Smart Conditions:** TrMenu let you user-friendly conditions syntaxes such as `hasMoney.100` or `hasPerm.your.permission`
-* **Input Catcher:** The Input Catcher consists of asking the player to input something in the chat, on a sign, or in an anvil, and then, based on a condition, will execute actions depending if the condition is met or not. You can use multiples Input Catcher one right after another one.
-* **Arguments:** When opening a menu with an binded command, you can provide arguments which can be used in the menu for various purposes, and even be changed later from the menu with actions.  
+* **Conditions Simplifiées:** TrMenu propose des syntaxes de conditions simples comme`hasMoney.100` ou `hasPerm.your.permission`
+* **Capteur d'Entrée:** L'Input Catcher consiste à demander une question au joueur qui doit ensuite entrer un message dans le chat, sur une pancarte ou dans une enclume pour ensuite exécuter des actions si la condition a été remplie ou non. Vous pouvez utiliser plusieurs Input Catcher l'un après l'autre.
+* **Arguments:** En ouvrant un menu avec une commande reliée, vous pouvez spécifier des arguments que vous pouvez ensuite utiliser dans votre menu pour diverses choses. Vous pouvez même les rechanger plus tard dans le menu avec des actions.  
 * **Meta/Data Support:** You can also create metas or datas per players which can store values just like arguments, but metas are stored until a server restart and datas are always kept. They can be set, edited and removed from the menu and can be accessible wherever you want in it.
 * **Menu Template:** With the /trmenu template &lt;rows&gt; command, you can easily create a menu **design** without touching at the files and then get the configuration.
 * **Auto-Reload:** Menus will be auto reloaded instantly right after you save the file. 
