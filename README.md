@@ -35,7 +35,7 @@ Currently developing TrMenu v2 is a completely recoded version with more feature
 * **Conditionnal Icons:** Each button can have conditionnals icons which will be displayed if a certain condition is met.
 * **Icon Inheritance:** Conditionnal icons can inherit the display properties of the default icon to reduce the size of the config thanks to a single line.
 * **Cached Scripts:** Scripts are automatically pre-compiled and cached.
-* **Smart Conditions:** TrMenu let you user-friendly conditions syntaxes such as `hasMoney.100` or `hasPerm.your.permission`
+* **Smart Conditions:** TrMenu contains user-friendly conditions syntaxes such as `hasMoney.100` or `hasPerm.your.permission`
 * **Input Catcher:** The Input Catcher consists of asking the player to input something in the chat, on a sign, or in an anvil, and then, based on a condition, will execute actions depending if the condition is met or not. You can use multiples Input Catcher one right after another one.
 * **Arguments:** When opening a menu with an binded command, you can provide arguments which can be used in the menu for various purposes, and even be changed later from the menu with actions.  
 * **Meta/Data Support:** You can also create metas or datas per players which can store values just like arguments, but metas are stored until a server restart and datas are always kept. They can be set, edited and removed from the menu and can be accessible wherever you want in it.
