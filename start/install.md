@@ -10,7 +10,7 @@ description: 'Après avoir téléchargé le fichier jar du plugin, installez le 
 Au premier démmarage, TrMenu doit avoir un accès à Internet.
 {% endhint %}
 
-| Server Software | Supported? |
+| Softwares de Serveur | Supporté? |
 | :--- | :--- |
 | Spigot | 1.8-1.16 |
 | Paper | 1.8-1.16 |

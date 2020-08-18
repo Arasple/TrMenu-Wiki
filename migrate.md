@@ -8,7 +8,7 @@ description: >-
 
 ## Supported Plugins
 
-| Plugins | Supported? |
+| Plugins | Supporté? |
 | :--- | :--- |
 | TrMenu v1 | √ |
 | DeluxeMenus | Bientôt |
