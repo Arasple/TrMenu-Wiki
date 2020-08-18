@@ -25,7 +25,7 @@ TrMenu v2 est actuellement en développement, c'est une réécriture complète d
 * **Tâches Périodiques:** Vous pouvez créer des tâches qui exécuteront des actions avec un certain intervalle pendant que le menu est ouvert.
 * **Scripts:** TrMenu propose aussi une fonctionnalité pour créer des scripts dans vos menus et récupérer le résultat n'importe où!
 * **Ouverture de Menus:** Reliez vos menus à des commandes \(supportent RegEx\), des items ou des raccourcis \(Seconde main, Accroupi+Clic sur joueur...\)
-* **Commandes Enregistrés:** Enregistrez des commandes dans le plugin pour pouvoir utiliser vos commandes de menus dans d'autres plugins. Vous permet aussi d'activer la tab-completition pour les commandes et leurs arguments!
+* **Commandes Enregistrés:** Enregistrez des commandes dans le plugin pour pouvoir utiliser vos commandes de menus dans d'autres plugins. Vous permet aussi d'activer l'auto-complétion pour les commandes et leurs arguments!
 * **Materiaux:** TrMenu supporte plusieurs moyens pour afficher des items: CustomModelData, JSON, Têtes custom de HDB...
 * **Effets Dynamiques:** Tout les items supportent des quantités/effets de surbrillance/... dynamiques
 * **Items Dynamiques:** Ils supportent aussi des propriétés dynamiques dont les Matériaux, les Noms, les Lores et les Slots avec un intervalle d'actualisation indépendant de chacun.

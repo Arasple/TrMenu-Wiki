@@ -49,65 +49,73 @@ Options:
   Skull-Mojang-API: false
 
 #
-# Get menus from a path leading to a folder or directly a menu
-# Supports ItemRepo files to get pre-made items for your menus
+# Charger des menus depuis un chemin menant à un dossier ou difrectement un fichier
+# Supporte des fichiers de repo d'items pour avoir des items custom dans vos menus 
 #
 Load-Menu-Files:
   - 'plugins/CustomMenusFolder'
 
 #
-# Actions Configuration
+# Configuration d'Actions
 #
 Actions:
-  # Customize the words used to cancel an input catcher, supports regex
+  # Customise les mots d'annulation des Input Catchers, supporte RegEx
   Catcher-Cancel-Words:
     - '(?i)cancel|quit|exit|end|stop'
+    - '(?i)annul(e|er|é)?'
 
 #
-# Menu Items Configuration
+# Configuration d'Items de Menus
 #
 Item:
-  # Default color for items' names
+  # Couleur par défaut des noms d'items 
   Default-Color-Name: '&7'
-  # Default color for items' lores
+  # Couleur par défaut des lores d'items
   Default-Color-Lore: '&7'
 
 #
-# Actions Shortcuts Configuration
+# Configuration des Raccourcis d'Actions
 #
 Shortcuts:
+  # Seconde Main
   Offhand: 'open: Example'
+  # Accroupi + Seconde Main
   Sneaking-Offhand:
     - condition: 'hasPerm.trmenu.shortcut'
       execute: 'open: Example'
+  # Clic-Droit sur Joueur
   Right-Click-Player: []
+  # Accroupi + Clic-Droit sur Joueur
   Sneaking-Right-Click-Player: []
+  # Clic sur Bordure Gauche de l'inventaire
   PlayerInventory-Border-Left: []
+  # Clic sur Bordure Droite de l'inventaire
   PlayerInventory-Border-Right: []
+  # Clic au Milieu de l'inventaire
   PlayerInventory-Border-Middle: []
 
 #
-# Register commands with actions and arguments
-# Supports tab-completition !
-# (WARNING: A server restart is required to add, change or remove commands)
+# Enregistrer des commandes avec des actions et arguments
+# Supporte l'auto-complétion!
+# (ATTENTION: Un redémmarage du serveur est requis pour ajouter, modifier ou supprimer des commandes)
 #
 RegisterCommands:
-  # Command name
+  # Nom de la Commande
   openMenus:
-    # Command Aliases
+    # Aliases de la Commande
     aliases: []
-    # Required permission
+    # Permission Requise
     permission: null
-    # Actions executed without any arguments
+    # Actions exécutées sans aucun arguments
     execute:
       - 'tell: &7Argument `example` Required!'
-    # Arguments with their actions
+    # Arguments avec leurs actions
     arguments:
       example: 'open: example'
 
 #
-# When enabled, TrMenu will ignore cancelled events monitored by some plugins
-# If you encouter compatibilities issues, try to toggle the option.
+# Quand activé,TrMenu ignorera les évènements annulés utilisés pas certains plugins
+# Si vous rencontrer des problèmes de compatibilitées, essayez de modifier les options.
 #
 Events-Ignore-Cancelled:
   PlayerCommandPreprocessEvent: true

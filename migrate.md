@@ -1,34 +1,36 @@
 ---
-description: Migrate configuration files from other menus into TrMenu's format
+description: >-
+  Convertir des fichiers de configuration de menus d'autres plugins dans le
+  format de TrMenu
 ---
 
-# Migrate
+# Conversion
 
 ## Supported Plugins
 
 | Plugins | Supported? |
 | :--- | :--- |
 | TrMenu v1 | √ |
-| DeluxeMenus | × |
+| DeluxeMenus | Bientôt |
 | BossShopPro | × |
 | ChestCommands | × |
 
-## How to migrate menus?
+## Comment convertir des menus?
 
-### Separated Files
+### Fichiers Séparés
 
-* To migrate files speerately, put the file in your TrMenu folder and execute this command from the console: 
-* Examples:
+* Pour convertir des fichiers séparément, mettez le fichier dans votre dossier TrMenu et exécutez cette commande depuis la console: `trmenu migrate <plugin> <fichier>` 
+* Exemples:
   * `trmenu migrate TrMenuV1 kits.yml`
-  * `trmenu migrate TrMenuV1 oldMenus/menu.yml`
+  * `trmenu migrate TrMenuV1 anciensMenus/menu.yml`
 
-### Whole Folder
+### Dossier Complet
 
-* To migrate a whole folder of menus at once, put the file in your TrMenu folder and execute this command from the console: `trmenu migrate <plugin> <path to file>`
-* Example:
-  * `trmenu migrate TrMenuV1 oldMenus`
+* Pour convertir un dossier complet de menus, mettez le dossier dans votre dossier TrMenu et exécutez cette commande depuis la conse: `trmenu migrate <plugin> <chemin du dossier>`
+* Exemple:
+  * `trmenu migrate TrMenuV1 anciensMenus`
 
-If everything goes well, you can find all your migrated menus in `/TrMenu/migrated/`
+Si tout se passe bien, vous trouverez vos menus convertis dans dans le dossier `/TrMenu/migrated/`
 
-To load the migrated menus, just copying them into the `/TrMenu/menus/` and execute `/trmenu reload`
+Pour charger les menus convertis, copiez les juste dans votre dossier `/TrMenu/menus/` et exécutez`/trmenu reload`
 
