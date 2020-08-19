@@ -1,10 +1,10 @@
 # Table of contents
 
 * [Trang Chủ](README.md)
-* [Start](start/README.md)
-  * [Install](start/install.md)
-  * [Setup](start/setup.md)
-* [Migrate](migrate.md)
+* [Bắt Đầu](start/README.md)
+  * [Cài Đặt](start/install.md)
+  * [Thiết lập](start/setup.md)
+* [Chuyển đổi](migrate.md)
 
 ## MENU
 

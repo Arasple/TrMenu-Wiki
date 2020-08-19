@@ -42,7 +42,7 @@ Hiện đang phát triển TrMenu v2 là phiên bản được code lại hoàn 
 * **Menu Bản Mẫu:** Với lệnh /trmenu template &lt;rows&gt;, bạn có thể dễ dàng tạo một menu với **thiết kế** mà không cần chạm vào ở trong các tệp và sau đó nhận cấu hình.
 * **Auto-Reload\(Tự Động Tải Lại\):**  Các menu sẽ được tự động tải lại ngay lập tức sau khi bạn lưu tệp. 
 * **Các Màu RGB:** Cho các máy chủ có phiên bản 1.16 trở lên, các mã RGB có thể sử dụng với &{FFFFFF} hoặc &{256,256,256}
-* Các nút bỏ qua trường hợp và có các aliase
+* Các nút bỏ qua trường hợp và có các bí danh\(aliase\)
 * Logic nút dễ hiểu, tài liệu chi tiết 
 * Mã nguồn mở và có một Develeoper API
 * Và còn nhiều hơn thế nữa!

@@ -1,26 +1,27 @@
 ---
-description: 从正规渠道获取到本插件的 JAR 文件后，安装到服务器
+description: 'Sau khi tải tệp jar của plugin, lắp đặt nó trên máy chủ.'
 ---
 
-# 安装
+# Cài Đặt
 
-## 需求
+## Các yêu cầu
 
 {% hint style="info" %}
-TrMenu 需要在联网条件下载安装
+Ở lần đầu khởi động, TrMenu phải được cài đặt với kết nối Internet
 {% endhint %}
 
-| 服务端 | 版本 |
+| Phần Mềm Máy Chủ | Hỗ Trợ |
 | :--- | :--- |
 | Spigot | 1.8-1.16 |
 | Paper | 1.8-1.16 |
 | Akarin | × |
 | Arclight \(Forge\) | √ |
-| CatServer \(Forge\) | √ |
-| Mohist \(Forge\) | × |
+| CatServer \(Bukkit+Forge\) | √ |
+| Mohist \(Bukkit+Forge\) | × |
+| Magma \(Bukkit+Forge\) | Chưa thử nghiệm |
 
-## 安装
+## Cài Đặt
 
-* 将 **TrMenu.jar** 丢进 plugins 目录
-* 重新启动服务器
+* Bỏ `TrMenu.jar` tệp jar vào trong thư mục plugins của bạn 
+* Khởi động lại máy chủ
 

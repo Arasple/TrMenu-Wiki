@@ -1,81 +1,76 @@
 ---
-description: 初次安装本插件后，会在插件目录下产生一些文件
+description: 'Sau khi cài đặt plugin, các tập tin sẽ được tạo ra trong thư mục plugins'
 ---
 
-# 配置
+# Thiết lập
 
-## 文件
+## Files/Folders
 
 {% tabs %}
-{% tab title="lang/zh\_CN.yml" %}
-TLocale 语言文件, 你可以编辑大多数插件的消息
+{% tab title="/menus/" %}
+Tệp cấu hình chính của Plugin.
 {% endtab %}
 
-{% tab title="menus" %}
-默认的菜单加载目录
+{% tab title="/lang/en\_US.yml" %}
+Bạn có thể chỉnh sửa hầu hết các tin nhắn của plugin trong tệp ngôn ngữ
 {% endtab %}
 
-{% tab title="items.yml" %}
-物品仓库存储功能
-{% endtab %}
-
-{% tab title="settings.yml" %}
-插件的设置文件
+{% tab title="/items.yml" %}
+Lưu trữ cho các mục được tạo bằng lệnh `/trmenu itemRepo` 
 {% endtab %}
 {% endtabs %}
 
-## 设置
+## Setup
 
-* 使用文本编辑器打开 settings.yml，你可以在此编辑插件的相关设置
-* 插件将自动监听保存改动，重新载入
+* Tệp `settings.yml` là tệp cấu hình chính của plugin.
+* Plugin sẽ tự động phát hiện các thay đổi và tải lại tệp.
 
 {% code title="settings.yml" %}
 ```yaml
 #
-# 插件的相关选项
+# Cấu Hình
 #
 Options:
-  # 是否启用调试模式 (将打印更多信息到控制台)
+  # Có bật chế độ gỡ lỗi(debug) hay không (sẽ in thêm thông tin vào bản điều khiển(console))
   Debug: false
-  # 使用的语言文件
-  # 可用： zh_CN, zh_TW, en_US
-  Locale: zh_CN
-  # 是否隐藏插件启动时的 Logo
+  # Ngôn ngữ của plugin
+  # Ngôn ngữ： zh_CN, zh_TW, en_US, fr_FR, th_TH, es_MX
+  Locale: en_US
+  # Có ẩn Logo của plugin trong bản điều khiển(console) khi khởi động hay không
   Hide-Logo: false
-  # 联网加载头颅材质是否使用 Mojang API
-  # 不启用则默认使用 https://api.minetools.eu/
+  # Khi bật TrMenu sẽ lấy các dữ liệu đầu của người chơi từ Mojang của API
+  # [KHUEYÉN NGHỊ] Nếu đã tắt, nó sẽ lấy chúng với https://github.com/Electroid/mojang-api
   Skull-Mojang-API: false
 
 #
-# 自定义加载菜单的文件或目录
-# 支持多级子目录itemRepo
+# Nhận menu từ một đường dẫn đến một thư mục hoặc trực tiếp một menu
+# Hỗ trợ các tệp ItemRepo để lấy các vật phẩm làm sẵn cho menu của bạn
 #
 Load-Menu-Files:
   - 'plugins/CustomMenusFolder'
 
 #
-# 动作相关设置
+# Cấu Hình Các Hành Động
 #
 Actions:
-  # 指定取消捕获器的内容, 支持正则
+  # Tùy chỉnh các từ được sử dụng để hủy trình bắt đầu vào, hỗ trợ regex
   Catcher-Cancel-Words:
     - '(?i)cancel|quit|exit|end|stop'
-    - '取消|退出'
 
 #
-# 菜单物品相关
+# Cấu Hình Các Vật Phẩm Menu
 #
 Item:
-  # 默认物品名称的颜色
+  # Màu tên mặc định của vật phẩm
   Default-Color-Name: '&7'
-  # 默认物品描述的颜色
+  # Màu lore mặc định của vật phẩm
   Default-Color-Lore: '&7'
 
 #
-# 快捷操作执行动作
+# Cầu Hình Hành Động Lỗi Tắt
 #
 Shortcuts:
-  Offhand: []
+  Offhand: 'open: Example'
   Sneaking-Offhand:
     - condition: 'hasPerm.trmenu.shortcut'
       execute: 'open: Example'
@@ -83,33 +78,35 @@ Shortcuts:
   Sneaking-Right-Click-Player: []
   PlayerInventory-Border-Left: []
   PlayerInventory-Border-Right: []
+  PlayerInventory-Border-Middle: []
 
 #
-# 注册命令执行动作
-# (增改命令需要重启服务器, TAB补全才能生效)
+# Đăng ký các lệnh vời các hành động và các argument
+# Hỗ trợ tab-completition !
+# (CẢNH BÁO: Yêu cầu khởi động lại máy chủ khi thêm, thay đổi hoặc xoá bỏ các lệnh)
 #
 RegisterCommands:
-  # 主命令
+  # Tên lệnh
   openMenus:
-    # 别称
+    # Các Lệnh Bí Danh (aliases)
     aliases: []
-    # 权限
+    # Yêu cầu quyền
     permission: null
-    # 无参数执行时
+    # Các hành động thực thi mà không cần một arguments nào
     execute:
-      - 'tell: &7Argument Required!'
-    # 参数及对应的反应
+      - 'tell: &7Argument `example` Required!'
+    # Arguments với cái hành động của họ
     arguments:
       example: 'open: example'
 
 #
-# 控制一些插件监听的 Bukkit 事件，是否忽略已被取消的事件
-# 如果遇到一些兼容性问题可以尝试调整
+# Khi được bật, TrMenu sẽ bỏ qua các sự kiện huỷ bỏ được giám sát bởi một số plugin
+# Nếu bạn gặp sự cố về khả năng tương thích, hãy thử chuyển đổi tùy chọn.
 #
 Events-Ignore-Cancelled:
-  # 监听菜单打开命令
   PlayerCommandPreprocessEvent: true
-
+  InventoryOpenEvent: true
+  InventoryClickEvent: true
 ```
 {% endcode %}
 
