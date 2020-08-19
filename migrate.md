@@ -9,7 +9,7 @@ description: Migrate configuration files from other menus into TrMenu's format
 | Plugins | Supported? |
 | :--- | :--- |
 | TrMenu v1 | √ |
-| DeluxeMenus | Bientôt |
+| DeluxeMenus | Soon |
 | BossShopPro | × |
 | ChestCommands | × |
 
@@ -17,7 +17,7 @@ description: Migrate configuration files from other menus into TrMenu's format
 
 ### Separated Files
 
-* To migrate files speerately, put the file in your TrMenu folder and execute this command from the console: `trmenu migrate <plugin> <file>`
+* To migrate files separately, put the file in your TrMenu folder and execute this command from the console: `trmenu migrate <plugin> <file>`
 * Examples:
   * `trmenu migrate TrMenuV1 kits.yml`
   * `trmenu migrate TrMenuV1 oldMenus/menu.yml`
