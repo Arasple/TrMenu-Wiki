@@ -1,64 +1,55 @@
 ---
-description: 欢迎查阅 TrMenu 的官方教程
+description: Chào mừng đến với trang wiki của TrMenu
 ---
 
-# 主页
+# Trang Chủ
 
-## 介绍
+## GIới Thiệu
 
-TrMenu 是一款发布于 Oct 4th, 2019 的 Bukkit 高级菜单系统
+TrMenu được phát hành vào Ngày 4 Tháng 10 Năm 2019, nhằm trở thành plugin menu hiện đại mới cho các máy chủ Minecraft.
 
-相比市面上同类菜单插件，拥有丰富功能的同时，还具有强大高效的特点，广受国内外大量用户好评
+Hiện đang phát triển TrMenu v2 là phiên bản được code lại hoàn toàn với nhiều tính năng hơn
 
-当前已基于 Kotlin 大量改善和完全重写，使用超强 Bukkit-API 拓展 [TabooLib5](https://github.com/TabooLib)
+​ TrMenu đang sử dụng mạnh mẽ _Built-in Bukkit-API Expansion_ [TabooLib5](https://github.com/TabooLib)
 
-## 功能
+## Các Tính Năng
 
-* **版本兼容，**支持 1.8-1.16, 低版本可用 ID/DataValue
-* **数量不限，**菜单的数量没有上限，你可以制作无限制的独立高级菜单
-* **高级布局，**直观可视化的制作菜单，现已支持多字符布局
-* **多页菜单，**你可以利用布局轻松制作多页菜单
-* **虚拟菜单，**完全基于数据包的虚拟容器 & 物品，更安全
-* **玩家容器，**玩家背包 4\*9 的槽位制作菜单，支持多页
-* **动态标题，**所有菜单均支持周期性更新的动态标题
-* **菜单事件，**为菜单的开启、关闭事件执行动作反应
-* **周期任务，**自定义无限制个菜单周期任务
-* **内置脚本，**配置多个自定义脚本并快速调用
-* **高级绑定，**支持绑定到正则匹配的命令、多个物品特征或是快捷动作
-* **显示材质，**插件支持各种头颅, CustomModelData, NBT 及 HDB 等
-* **动态效果，**图标支持使用动态数量、动态发光效果，动态 NBT 等
-* **动态图标**_**，**_轻松配置动态的材质、名称、Lore和槽位，支持独立更新周期
-* **图标交互，**基于数据包，完整支持包括数字键的总计超过 22 种点击类型
-* **执行动作，**超过 40+ 种动作支持，一步到位实现效果
-* **动作选项，**每个动作均支持配置独立的选项，如延时、条件、概率和遍历
-* **三元反应，**可以使用多个三元反应，由条件、通过动作组和拒绝动作组构成
-* **条件图标，**每个图标可配置带条件的优先级子图标
-* **图标继承，**子图标可以选择继承默认图标的显示属性以提高效率
-* **脚本编译，**条件基于脚本编译返回结果，大部分脚本自动预编译缓存
-* **智能条件，**原创的条件表达式写法，轻松入门上手，如 hasMoney.100
-* **输入捕获，**支持多个参数的高级捕获器
-* **命令传参，**开启命令的参数传入菜单作为变量，轻松打造插件级 GUI
-* **元素变量，**为玩家增删改 Meta 值，且可以当变量使用
-* **模板功能，**将物品放入容器，快速创建菜单配置
-* **自动重载，**菜单编辑自动重载，即时可见
-* **RGB 颜色，**完整支持 1.16+ 颜色代码, 如 &{FFFFFF}, &{256,256,256}
-* 忽略大小写及多种写法的节点
-* 原创易懂的节点逻辑，详细文档 & 轻松入门
-* 代码开源，长期维护，提供开发者 API
-* And much more ...
-
-## 版本
-
-* TrMenu v1.x
-  * 普通免费版本
-  * 停止更新、支持
-* TrMenu v2.x
-  * 现役最新版本
-  * 付费开源
+* **Hỗ Trợ Đa Phiên Bản:** TrMenu hỗ trợ các phiên bản Minecraft từ 1.8 đến 1.16.2 và các material IDs/DataValue của chúng.
+* **Không Giới Hạn Menu:** Bạn có thể tạo bao nhiêu menu tùy thích mà không bị giới hạn!
+* **Layout Nâng Cao:** Cách trực giác và trực quan để sắp đặt các nút trong menu của bạn.
+* **Hỗ Trợ Đa Trang:** Bạn có thể dễ dàng tạo menu với nhiều trang khác nhau mà không cần đến vô vàn menu khác nhau sử dụng các vật phẩm giống hệt nhau. 
+* **Dựa Trên Gói:** Các menu của TrMenu hoàn toang sử dụng dựa trên gói, làm cho chúng hoạt động hiệu quả hơn và an toàn hơn.
+* **Kho Đồ Người Chơi:** TrMenu cho phép bạn tận dụng kho đồ của người chơi để có thêm 4\*9 ô. Nó có thể hoạt động cùng với nhiều trang!
+* **Tiêu Đề Động:** Bạn có thể có nhiều tiêu đề mỗi menu cập nhật dựa trên khoảng thời gian nhất định.
+* **Sự Kiện Menu:** Thực thi các hành động khi mở hoặc đóng menu.
+* **Tác Vụ Định Kỳ:** Các tác vụ tùy chỉnh được thực hiện trong một khoảng thời gian xác định.
+* **Các Tập Lệnh \(Scripts\):** Đa cấu hình tập lệnh tuỳ chỉnh trong menu và nhận kết quả ở bất cứ đâu trong menu của bạn!
+* **Menu Rằng Buộc:** Buộc menu có các lệnh \(Hỗ trợ RegEx\), vật phẩm hoặc đường tắt \(Offhand, Sneak-Click-Player....\)
+* **Đăng Ký Lệnh:** Đăng ký các lệnh để cho phép bạn sử dụng các lệnh mở trong các plugin khác. Nó còn có thể cho phép bạn có tab-completition cho chính lệnh và thậm chí trên các đối số argument!
+* **Materials:** TrMenu hỗ trợ nhiều cách khác nhau để hiển thị materials của một nút: CustomModelData, JSON, Custom Heads từ HDB\(Head DataBase\) hoặc head value...
+* **Các Hiệu Ứng Động :** Tất cả các nút đều hỗ trợ sử dụng số lượng động, hiệu ứng phát sáng... 
+* **Các Nút Động:**  Chún còn hỗ trợ các thuộc tính động như là các Material, Tên, Lore và các Ô với một khoảng thời gian cập nhật độc lập.
+* **Các Nút Tương Tác:** Hỗ trợ tổng cộng có 22 loại nhấp chuột bao các chìa khoá từ 1 đến 9. Mỗi tương tác đều dựa trên gói.
+* **Các Nút Hành Động:**  Hơn 40 hành động được hỗ trợ để thực hiện thay vì một số lệnh theo cách tốt hơn và dễ dàng hơn.
+* **Các Lựa Chọn Hành Động:**  Tất cả các hành động hỗ trợ các lựa chọn như là sự chậm trễ\(delay\), các điều kiện, xác suất và cho tất cả người chơi.
+* **Các Biểu Tượng Có Điều Kiện:** Mỗi nút có thể có các biểu tượng điều kiện sẽ làm cho nó được hiển thị nếu một điều kiện nhất định được đáp ứng.
+* **Biểu Tượng Kế Thừa:** Các biểu tượng có điều kiện có thể thừa kế thuộc tính hiển thị của biểu tượng mặc định để giảm kích thước của cấu hình nhờ một dòng duy nhất.
+* **Bộ Nhớ Đệm Scripts:** Scripts được tự động biên dịch trước và lưu vào bộ nhớ đệm.
+* **Các Điều Kiện Thông Minh:** TrMenu chứa các cú pháp điều kiện thân thiện với người dùng như `hasMoney.100` hoặc `hasPerm.your.permission`
+* **Trình Bắt Đầu Vào\(Input Catcher\):** Trình Bắt Đầu vào bao gồm yêu cầu người chơi đặt vào trong chat cái gì đó, trên một sign, hoặc trên một anvil, và rồi, dựa trên một điều kiện, sẽ thực thi các hành động tuỳ thuộc vào điều kiện sẽ gặp hoặc không. Bạn có thể sử dụng đa Trình Bắt Đầu Vào từ cái này sang cái khác.
+* **Arguments:** Khi đang mở một menu với lệnh bắt buộc, bạn có thể cung cấp các argument có thể sử dụng trong menu cho các mục đích khác nhau, và có thể thay đổi sau từ menu với cái hành động.  
+* **Hỗ Trợ Meta/Data:**  Bạn còn có thể tạo các meta hoặc các dữ liệu cho mỗi người chơi có thể tính trữ các giá trị như các argument, nhưng các meta có thể dự trữ cho đến khi máy chủ khởi động lại còn các dữ liệu luôn được giữ. Chúng có thể được đặt, chỉnh sửa và loại bỏ từ menu và bạn có thể truy cập vào đó bất cứ khi nào.
+* **Menu Bản Mẫu:** Với lệnh /trmenu template &lt;rows&gt;, bạn có thể dễ dàng tạo một menu với **thiết kế** mà không cần chạm vào ở trong các tệp và sau đó nhận cấu hình.
+* **Auto-Reload\(Tự Động Tải Lại\):**  Các menu sẽ được tự động tải lại ngay lập tức sau khi bạn lưu tệp. 
+* **Các Màu RGB:** Cho các máy chủ có phiên bản 1.16 trở lên, các mã RGB có thể sử dụng với &{FFFFFF} hoặc &{256,256,256}
+* Các nút bỏ qua trường hợp và có các aliase
+* Logic nút dễ hiểu, tài liệu chi tiết 
+* Mã nguồn mở và có một Develeoper API
+* Và còn nhiều hơn thế nữa!
 
 {% hint style="info" %}
-本教程完全基于 TrMenu v2.x
+The Vietnamese locale of the wiki was made by **GalaxyVN**
 
-旧版本 Wiki：[http://trmenu.trixey.cn/](http://trmenu.trixey.cn/)
+Ngôn ngữ Tiếng Việt của wiki được tạo bởi **GalaxyVN**
 {% endhint %}
 
