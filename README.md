@@ -1,64 +1,57 @@
 ---
-description: 欢迎查阅 TrMenu 的官方教程
+description: Bienvenid@ a la wiki de TrMenu v2 en español!
 ---
 
-# 主页
+# Inicio
 
-## 介绍
+## Introducción
 
-TrMenu 是一款发布于 Oct 4th, 2019 的 Bukkit 高级菜单系统
+TrMenu fue lanzado en Octubre 4 de año 2019 buscando ser un nuevo y mejor plugin de menús para Minecraft.
 
-相比市面上同类菜单插件，拥有丰富功能的同时，还具有强大高效的特点，广受国内外大量用户好评
+Actualmente se está haciendo TrMenu 2.0 el cual es una versión completamente recodeada desde cero, agregando nuevas opciones y utilidades.
 
-当前已基于 Kotlin 大量改善和完全重写，使用超强 Bukkit-API 拓展 [TabooLib5](https://github.com/TabooLib)
+Para funcionar TrMenu usa una expansión poderosa que se incorpora con la API de Bukkit llamada [TabooLib5](https://github.com/TabooLib)
 
-## 功能
+### ¿Qué es TrMenu?
 
-* **版本兼容，**支持 1.8-1.16, 低版本可用 ID/DataValue
-* **数量不限，**菜单的数量没有上限，你可以制作无限制的独立高级菜单
-* **高级布局，**直观可视化的制作菜单，现已支持多字符布局
-* **多页菜单，**你可以利用布局轻松制作多页菜单
-* **虚拟菜单，**完全基于数据包的虚拟容器 & 物品，更安全
-* **玩家容器，**玩家背包 4\*9 的槽位制作菜单，支持多页
-* **动态标题，**所有菜单均支持周期性更新的动态标题
-* **菜单事件，**为菜单的开启、关闭事件执行动作反应
-* **周期任务，**自定义无限制个菜单周期任务
-* **内置脚本，**配置多个自定义脚本并快速调用
-* **高级绑定，**支持绑定到正则匹配的命令、多个物品特征或是快捷动作
-* **显示材质，**插件支持各种头颅, CustomModelData, NBT 及 HDB 等
-* **动态效果，**图标支持使用动态数量、动态发光效果，动态 NBT 等
-* **动态图标**_**，**_轻松配置动态的材质、名称、Lore和槽位，支持独立更新周期
-* **图标交互，**基于数据包，完整支持包括数字键的总计超过 22 种点击类型
-* **执行动作，**超过 40+ 种动作支持，一步到位实现效果
-* **动作选项，**每个动作均支持配置独立的选项，如延时、条件、概率和遍历
-* **三元反应，**可以使用多个三元反应，由条件、通过动作组和拒绝动作组构成
-* **条件图标，**每个图标可配置带条件的优先级子图标
-* **图标继承，**子图标可以选择继承默认图标的显示属性以提高效率
-* **脚本编译，**条件基于脚本编译返回结果，大部分脚本自动预编译缓存
-* **智能条件，**原创的条件表达式写法，轻松入门上手，如 hasMoney.100
-* **输入捕获，**支持多个参数的高级捕获器
-* **命令传参，**开启命令的参数传入菜单作为变量，轻松打造插件级 GUI
-* **元素变量，**为玩家增删改 Meta 值，且可以当变量使用
-* **模板功能，**将物品放入容器，快速创建菜单配置
-* **自动重载，**菜单编辑自动重载，即时可见
-* **RGB 颜色，**完整支持 1.16+ 颜色代码, 如 &{FFFFFF}, &{256,256,256}
-* 忽略大小写及多种写法的节点
-* 原创易懂的节点逻辑，详细文档 & 轻松入门
-* 代码开源，长期维护，提供开发者 API
-* And much more ...
+* TrMenu es un plugin increíble para crear menús completamente editables de manera sencilla para el usuario.
+* TrMenu tiene muchas opciones para la creación de menús además de utilidades para tu servidor.
+* Con TrMenu podrás crear menús que fácilmente podrían reemplazar otros plugins, ¿Quieres crear un minijuego, un menú interactivo para editar tu servidor o incluso un menú multilenguaje? Pues no hay problema, con TrMenu podrás hacerlo!
 
-## 版本
+## Caracteristicas de TrMenu
 
-* TrMenu v1.x
-  * 普通免费版本
-  * 停止更新、支持
-* TrMenu v2.x
-  * 现役最新版本
-  * 付费开源
+* **Soporte multi-versión:** TrMenu se puede usar desde la versión 1.8 hasta la 1.16.2 de Minecraft y con sus respectivos materiales o IDs.
+* **Menús ilimitados:** Puedes hacer todos los menús que quieras con este plugin!
+* **Diseño intuitivo:** Se pueden ubicar las botones del menú en los sitios requeridos mediante un diseño facil de comprender.
+* **Soporte multi-página:** Puedes crear un menú con varias páginas para evitar la creación de muchos menús y así mantener un mejor orden.
+* **Basado en paquetes:** TrMenu se basa en paquetes, esto provoca un mejor rendimiento y evita causar lag en tu servidor.
+* **Inventario del jugador:** TrMenu permite convertir el inventario del jugador como parte del menú, cuando se cierra el menú el inventario vuelve a la normalidad.
+* **Titulos dinámicos:** Puedes hacer menús que actualicen su titulo cada cierto intervalo de tiempo.
+* **Eventos de menú:** Puedes hacer que al abrir o cerra el menú se ejecuten gran variedad de eventos.
+* **Tareas periódicas:** Tareas o tasks que se ejecutan cada cierto intervalo de tiempo.
+* **Scripts:** Opción de configurar diferentes cosas dentro del menú para utilizarlas dentro.
+* **Detección de eventos:** Opción de abrir los menús mediante comandos \(con soporte de RegEx\), al usar un item y otros eventos del jugador \(Clickear, agacharse, darle click a alguien...\).
+* **Registro de comandos:** Opción de registrar comandos que ejecuten varias acciones, de esta manera permite que el comando aparezca en el TAB e incluso poder sobreponer comandos de otros plugins.
+* **Materiales:** TrMenu soporta toda clase de materiales en sus botones como texturas custom, JSON, cabezas de jugadores... etc. 
+* **Efectos dinámicos:** Todos los botones soportan el uso de valores dinamicos, brillo y otros.
+* **Botones dinámicos:** Cada botón tiene propiedades como material, nombre, lore y slot con un valor independiente de actualización.
+* **Interacción con los botones:** Soporte de hasta 22 interacciones diferentes con cada botón incluso los números de 1 al 9 del teclado. Todas las interacciones son basadas en paquetes.
+* **Acciones al interactuar:** Más de 40 acciones diferentes que van desde cosas simples como ejecutar comandos hasta cosas complejas como ejecutar un código Javascript, todo de manera fácil y rápida de hacer.
+* **Opciones en las acciones:** Todas las acciones puedes tener opciones como un retraso de ejecución, una condición, una probabilidad o que se ejecuten para todos los jugadores. 
+* **Sub-Botones condicionales:** Cada botón del menú puede tener sub-botones que editaran el botón original en caso de cumplir cierta condición.
+* **Scripts guardados en el caché:** Los scripts se precompilan para guardarse automaticamente el caché.
+* **Condiciones inteligentes:** TrMenu tiene condiciones simples como `hasMoney.100` o `hasPerm.your.permission`
+* **Receptor de palabras:** Puedes crear un receptor de palabras ya sea usando el chat, un cartel o un yunque para luego ejecutar alguna acción dependiendo lo que se haya escrito.
+* **Argumentos:** TrMenu detecta los argumentos de los comandos que se usan para abrir el menú, osea, las palabras que hay después del comando son los argumentos.
+* **Soporte con Meta/Data:** Puedes crear distintos metas o datos para cada jugador, estos datos se guardarán hasta que el servidor se apagado y encendido, además puedes editar estos datos cuando quieras mediante los menús.
+* **Diseño rápido:** Con el comando /trmenu template &lt;lineas&gt;, puedes crear rápidamente el diseño de un menú solo con poner los items dentro de un menú vacío.
+* **Edición instantánea:** Cuando guardas un menú después de editarlo, los cambios se verán al instante dentro del juego.
+* **Colores RGB:** Para los servidores en la versión 1.16 o mayor se puede usar colores RGB con &{FFFFFF} o &{256,256,256}
+* Los nodos del menú se pueden escribir de maneras distintas.
+* Código abierto y Developer API
+* Y mucho más ...
 
 {% hint style="info" %}
-本教程完全基于 TrMenu v2.x
-
-旧版本 Wiki：[http://trmenu.trixey.cn/](http://trmenu.trixey.cn/)
+Esta wiki en español fue creada por **Rubenicos & Minelatino**
 {% endhint %}
 
