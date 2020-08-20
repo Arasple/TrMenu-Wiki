@@ -47,7 +47,7 @@ You can set a filter to only get the menus with the specified characters
 Migrates menu files from another plugin into TrMenu's format  
 More info:
 
-{% page-ref page="../migrate.md" %}
+{% page-ref page="../convertidor-migracion.md" %}
 
 ## /trmenu open &lt;menu&gt;:\[shape\] \[player\] \[args....\]
 

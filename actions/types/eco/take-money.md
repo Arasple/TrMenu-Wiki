@@ -16,7 +16,7 @@ description: Take the specified amount of money to the player using Vault
 - 'take-money: 100'
 ```
 
-{% page-ref page="../../../hook/vault.md" %}
+{% page-ref page="../../../plugins-compatibles/vault.md" %}
 
 
 

@@ -16,7 +16,7 @@ set(-)?point(s)?
 - 'set-points: 0'
 ```
 
-{% page-ref page="../../../hook/playerpoints.md" %}
+{% page-ref page="../../../plugins-compatibles/playerpoints.md" %}
 
 
 

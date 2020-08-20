@@ -4,7 +4,7 @@
 * [Como empezar](empezar/README.md)
   * [Instalación](empezar/instalacion.md)
   * [Configuración](empezar/configuracion.md)
-* [Migrate](migrate.md)
+* [Convertidor/Migración](convertidor-migracion.md)
 
 ## MENU
 
@@ -108,15 +108,15 @@
 * [Shortcuts](functions/shortcuts.md)
 * [Commands](functions/commands.md)
 
-## HOOK
+## PLUGINS COMPATIBLES
 
-* [PlaceholderAPI](hook/placeholderapi.md)
-* [Cronus](hook/cronus.md)
-* [Vault](hook/vault.md)
-* [PlayerPoints](hook/playerpoints.md)
-* [HeadDatabase](hook/headdatabase.md)
-* [Oraxen](hook/oraxen.md)
-* [SkinsRestorer](hook/skinrestorer.md)
+* [Cronus](plugins-compatibles/cronus.md)
+* [HeadDatabase](plugins-compatibles/headdatabase.md)
+* [Oraxen](plugins-compatibles/oraxen.md)
+* [PlaceholderAPI](plugins-compatibles/placeholderapi.md)
+* [PlayerPoints](plugins-compatibles/playerpoints.md)
+* [Vault](plugins-compatibles/vault.md)
+* [SkinsRestorer](plugins-compatibles/skinrestorer.md)
 
 ## API
 

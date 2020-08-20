@@ -16,7 +16,7 @@ description: Give the specified amount of points to the player using PlayerPoint
 - 'give-points: 100'
 ```
 
-{% page-ref page="../../../hook/playerpoints.md" %}
+{% page-ref page="../../../plugins-compatibles/playerpoints.md" %}
 
 
 

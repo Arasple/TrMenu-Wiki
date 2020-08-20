@@ -1,24 +1,33 @@
-# 菜单传参
+# Arguments
 
-## 启用
+## Enable
 
-* 菜单传参默认是开启的，你也可以在菜单配置的选项中关闭
+* The Option to transfer arguments is enabled by default, you can disable it by adding the option and setting it to false
 
 {% page-ref page="../menu/structure/options.md" %}
 
-## 传递
+## Usage
 
-* 若菜单设置开启命令为 Example, 且开启参数功能
-* 当玩家输入 /Example Agument1 Argument2 时，其菜单参数将设置为
-  * \[Argument1, Argument2\] 2个
-* 你也可以在开启命令、打开菜单动作中传递参数，或是通过设置参数动作二次更改参数
-* 对于含有空格的参数，使用 \` \` 框起来
+If a binded command is specified and the argument option is enabled, the player will be able to specify arguments by executing the command followed by some text, example: `/example arg0 arg1 arg2 ...`
 
-## 应用
+You can also specify arguments in the `/trmenu open <menu> <player> arg0 arg1 ....`command, in the `open: <menu> arg0 arg1 ...`action and even change them through the menu with the `set-args: arg0 arg1 ...`action.
 
-* 菜单的参数可以当作 **变量** 来使用,
-* {0} 对应第一个参数，{1} 对应第二个参数, 依此类推
-* 对于 10个 以上的参数或是在部分特殊情况下，你也可以通过 PlaceholderAPI 变量来使用参数
+{% page-ref page="../actions/types/menu/open-menu.md" %}
 
-{% page-ref page="../hook/placeholderapi.md" %}
+{% page-ref page="arguments.md" %}
+
+You can specify arguments with multiple words by surrounding them with \`\`, example:
+
+```text
+/example `arg 0` `arg 1`
+```
+
+## Application
+
+You can call the arguments with a variable inside the menu:
+
+* Use `{0}` for the first argument, `{1}`for the second, `{2}, {3}...`
+* You can also call arguments through a PlaceholderAPI placeholder: `%trmenu_args_#%` where \# is the number of the argument
+
+{% page-ref page="../plugins-compatibles/placeholderapi.md" %}
 

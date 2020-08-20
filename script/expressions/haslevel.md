@@ -1,14 +1,18 @@
 ---
-description: 判断玩家有没有一定等级
+description: Check if the player has the specified amount of levels
 ---
 
 # hasLevel
 
-## 示例
+## Example
 
 ```text
 hasLevel.10
 ```
+
+{% page-ref page="../../plugins-compatibles/vault.md" %}
+
+
 
 
 
