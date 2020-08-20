@@ -1,9 +1,9 @@
 # Table of contents
 
 * [Inicio](README.md)
-* [Start](start/README.md)
-  * [Install](start/install.md)
-  * [Setup](start/setup.md)
+* [Como empezar](empezar/README.md)
+  * [Instalación](empezar/instalacion.md)
+  * [Configuración](empezar/configuracion.md)
 * [Migrate](migrate.md)
 
 ## MENU
