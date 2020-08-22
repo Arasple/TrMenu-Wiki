@@ -6,32 +6,17 @@
   * [Configuración](empezar/configuracion.md)
 * [Convertidor/Migración](convertidor-migracion.md)
 
-## MENU
+## MENÚ
 
-* [Structure](menu/structure/README.md)
-  * [Title](menu/structure/title.md)
-  * [Layout](menu/structure/layout.md)
-  * [Options](menu/structure/options.md)
-  * [Bindings](menu/structure/bindings.md)
-  * [Events](menu/structure/events.md)
-  * [Buttons](menu/structure/icons.md)
-  * [Built-in Scripts](menu/structure/internal-functions.md)
-  * [Tasks](menu/structure/tasks.md)
-* [Icons](menu/icons/README.md)
-  * [Update](menu/icons/update.md)
-  * [Refresh](menu/icons/refresh.md)
-  * [Display](menu/icons/display/README.md)
-    * [Material](menu/icons/display/material.md)
-    * [Name](menu/icons/display/name.md)
-    * [Lore](menu/icons/display/lore.md)
-    * [Amount](menu/icons/display/amount.md)
-    * [Glow](menu/icons/display/shiny.md)
-    * [Flags](menu/icons/display/flags.md)
-    * [NBT](menu/icons/display/nbt.md)
-  * [Actions](menu/icons/actions.md)
-  * [Priority](menu/icons/priority.md)
-  * [Condition](menu/icons/condition.md)
-  * [Inherit](menu/icons/inherit.md)
+* [Creación](menu/creacion-de-menus.md)
+* [Configuración](menu/configuracion-de-menu.md)
+
+## BOTONES / ICONOS
+
+* [Configuración](botones-iconos/configuracion-de-icono.md)
+* [Display](botones-iconos/display-de-icono.md)
+* [Acciones](botones-iconos/acciones-de-icono.md)
+* [Sub-Iconos](botones-iconos/sub-iconos.md)
 
 ## ACTIONS
 

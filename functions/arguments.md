@@ -4,8 +4,6 @@
 
 * The Option to transfer arguments is enabled by default, you can disable it by adding the option and setting it to false
 
-{% page-ref page="../menu/structure/options.md" %}
-
 ## Usage
 
 If a binded command is specified and the argument option is enabled, the player will be able to specify arguments by executing the command followed by some text, example: `/example arg0 arg1 arg2 ...`
