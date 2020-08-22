@@ -8,8 +8,18 @@
 
 ## MENÚ
 
-* [Creación](menu/creacion-de-menus.md)
-* [Configuración](menu/configuracion-de-menu.md)
+* [Creación](menu/menu-creacion.md)
+* [Configuración](menu/menu-configuracion/README.md)
+  * [Título](menu/menu-configuracion/menu-configuracion-titulo.md)
+  * [Diseño](menu/menu-configuracion/menu-configuracion-diseno.md)
+  * [Tipo de Inventario](menu/menu-configuracion/menu-configuracion-tipo.md)
+  * [Tamaño](menu/menu-configuracion/menu-configuracion-tamano.md)
+  * [Opciones](menu/menu-configuracion/menu-configuracion-opciones.md)
+  * [Detección de eventos](menu/menu-configuracion/menu-configuracion-deteccion.md)
+  * [Eventos](menu/menu-configuracion/menu-configuracion-eventos.md)
+  * [Botones](menu/menu-configuracion/menu-configuracion-botones.md)
+  * [Scripts](menu/menu-configuracion/menu-configuracion-scripts.md)
+  * [Tareas periódicas](menu/menu-configuracion/menu-configuracion-tasks.md)
 
 ## BOTONES / ICONOS
 
