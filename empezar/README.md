@@ -11,7 +11,7 @@ Antes de empezar a usar TrMenu se sugiere tener conocimientos en:
 | Conocimiento | Importancia |
 | :--- | :--- |
 | Editar archivos .yml | Necesario |
-| Sintaxis avanzada en formato YAML  | Sugerible |
+| Comprensión básica de RegEx | Sugerible |
 | PlaceholderAPI y Placeholders | Sugerible |
 | Formato JSON | Opcional |
 | Programación básica en Java y Javascript | Sugerible |
