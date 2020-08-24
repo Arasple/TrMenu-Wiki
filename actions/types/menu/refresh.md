@@ -16,5 +16,3 @@ description: Recalculate all conditionnal icons and apply icon items
 - 'refresh'
 ```
 
-
-

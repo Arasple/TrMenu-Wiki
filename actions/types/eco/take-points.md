@@ -18,5 +18,3 @@ description: Take the specified amount of points to the player using PlayerPoint
 
 {% page-ref page="../../../hook/playerpoints.md" %}
 
-
-

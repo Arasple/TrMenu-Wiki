@@ -26,7 +26,6 @@ RegisterCommands:
     # Arguments with their actions
     arguments:
       example: 'open: example'
-
 ```
 {% endcode %}
 

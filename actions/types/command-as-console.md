@@ -16,5 +16,3 @@ console
 - 'console: lp user %player_name% permission set vip.user ;give %player_name% diamond 64'
 ```
 
-
-

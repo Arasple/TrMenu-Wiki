@@ -12,5 +12,3 @@ hasPoints.100
 
 {% page-ref page="../../hook/playerpoints.md" %}
 
-
-

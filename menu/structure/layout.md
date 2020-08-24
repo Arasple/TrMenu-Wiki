@@ -24,7 +24,7 @@ PlayerInventory:
 ```
 
 * The characters represent the buttons' identifiers. 
-* You can also use buttons with multiple characters if you surround them by ````````
+* You can also use buttons with multiple characters if you surround them by \`\`\`\`\`\`\`\`
 * This defines the size of the menu at the same time
 * The PlayerInventory feature, allows you to have 4 rows more in your menu by using the player's inventory!
 
@@ -37,7 +37,7 @@ Layout:
     - '         '
     - '         '
     - '########`Next`'
-    
+
   - - '########`Close`'
     - '         '
     - ' *       '
@@ -49,12 +49,11 @@ PlayerInventory:
     - '  | `Close` `Next`  '
     - '         '
     - '         '
-    
+
   - - '         '
     - '  `Pre` `Close` |  '
     - '         '
     - '         '
-
 ```
 
 * You can also have multiples Shapes \(multiples pages\) which you can then change with the `set-shape` action
