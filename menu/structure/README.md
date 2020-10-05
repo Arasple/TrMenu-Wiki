@@ -28,5 +28,3 @@ description: เข้าใจโครงสร้างของ TrMenu's con
 * สคริปท์
 * Periodic Tasks
 
-
-

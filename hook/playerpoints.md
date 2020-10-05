@@ -10,15 +10,7 @@
 
 ### Give-Points
 
-
-
 ### Take-Points
 
-
-
 ### Set-Points
-
-
-
-
 

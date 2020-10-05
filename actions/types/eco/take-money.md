@@ -18,5 +18,3 @@ description: Take the specified amount of money to the player using Vault
 
 {% page-ref page="../../../hook/vault.md" %}
 
-
-

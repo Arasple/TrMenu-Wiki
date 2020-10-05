@@ -12,7 +12,3 @@ hasLevel.10
 
 {% page-ref page="../../hook/vault.md" %}
 
-
-
-
-

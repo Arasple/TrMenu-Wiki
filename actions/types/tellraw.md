@@ -22,17 +22,15 @@ tellraw|json
 {% endtab %}
 
 {% tab title="TrMenu\'s Format 1" %}
-```
+```text
 - 'json: Hello World! <ClickMe?command=spawn&hover=to spawn> <--- Click That'
 ```
 {% endtab %}
 
 {% tab title="TrMenu\'s Format 2" %}
-```
+```text
 - 'json: &3Hello, &b{player_name}&3, Buy Ranks on our <&2&nstore?url=https://store.example.net> &3site.'
 ```
 {% endtab %}
 {% endtabs %}
-
-
 

@@ -30,5 +30,3 @@ Usage
       name: ['&cC&7lose', '&cCl&7ose', '&cClo&7se', '&cClos&7e', '&cClose']
 ```
 
-
-

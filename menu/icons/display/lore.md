@@ -46,5 +46,3 @@ lore:
 * The lore supports `\n` for line breaks \(works with placeholders too\)
 * The default color of lore lines can be configured in the `setting.yml` file
 
-
-
