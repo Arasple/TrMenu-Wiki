@@ -15,5 +15,3 @@
 [https://trmenu.trixey.cc/menu/icons/display/material\#oraxen-items](https://trmenu.trixey.cc/menu/icons/display/material#oraxen-items)
 {% endhint %}
 
-
-

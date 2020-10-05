@@ -20,7 +20,6 @@ Bindings:
     - 'material:clock,lore:OPEN_MENU'
     #Player Heads with the specified texture
     - 'texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRmNDUyZDk5OGVhYmFjNDY0MmM2YjBmZTVhOGY0ZTJlNjczZWRjYWUyYTZkZmQ5ZTZhMmU4NmU3ODZlZGFjMCJ9fX0='
-
 ```
 
 ## Note
@@ -32,6 +31,4 @@ Bindings:
 * To understand the syntax of binded items, please see the following wiki page:
 
   {% page-ref page="../../functions/item-identifiers.md" %}
-
-
 

@@ -22,5 +22,3 @@ Title-Update: 40
 * The `Title-Update: #` setting will only work with multiples titles.
 * If you only use a single title, you can use the `set-title: <text>` action to modify it within the menu. 
 
-
-

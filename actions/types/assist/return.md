@@ -21,7 +21,7 @@ actions:
     deny:
       - 'tell: You don''t have enough money!'
       - 'break'
-      
+
 Events:
   Open:
     - condition: 'hasPerm.trmenu.use'

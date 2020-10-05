@@ -28,5 +28,3 @@ description: Understand the structure of TrMenu's configuration
 * Scripts
 * Periodic Tasks
 
-
-
