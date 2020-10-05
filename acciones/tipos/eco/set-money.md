@@ -18,5 +18,3 @@ set(-)?(money|eco|coin)(s)?
 
 {% page-ref page="../../../plugins-compatibles/vault.md" %}
 
-
-

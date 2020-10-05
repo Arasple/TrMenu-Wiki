@@ -4,7 +4,7 @@ description: Configuración básica de TrMenu
 
 # Configuración
 
-### Archivos y Carpetas
+## Archivos y Carpetas
 
 Después de instalar TrMenu aparecerán varios archivos y carpetas en la ubicación /plugins
 
@@ -26,7 +26,7 @@ Archivo donde se guardan los items del comando `/trmenu itemRepo`
 {% endtab %}
 {% endtabs %}
 
-### Configuración del plugin
+## Configuración del plugin
 
 * Aquí verás el archivo `settings.yml` traducido al español con sus respectivas explicaciones.
 * Conforme vayas revisando esta wiki entenderás para que sirve cada cosa de la configuración.

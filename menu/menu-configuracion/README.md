@@ -6,7 +6,7 @@ description: Cómo configurar un menú de TrMenu
 
 Para configurar un menú debes añadir ciertas cosas dentro del archivo que creaste, el cual guardará el menú.
 
-### Estructura del menú
+## Estructura del menú
 
 **I. Título:** Es el titulo que se mostrará arriba del menú.
 
@@ -47,6 +47,4 @@ Para configurar un menú debes añadir ciertas cosas dentro del archivo que crea
 **X. Tareas periódicas \(Opcional\):** Cosas que se ejecutarán cada cierto intervalo de tiempo mientras el menú esté abierto como verificadores de variables.
 
 {% page-ref page="menu-configuracion-tasks.md" %}
-
-
 

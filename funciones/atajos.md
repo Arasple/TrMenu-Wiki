@@ -31,5 +31,3 @@ Shortcuts:
 
 {% page-ref page="../acciones/action.md" %}
 
-
-

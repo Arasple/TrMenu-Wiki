@@ -29,7 +29,7 @@ Options:
     - 'Server'
 ```
 
-### I. Activar detección de argumentos
+## I. Activar detección de argumentos
 
 * Con esta opción el menú detecta los argumentos que hay después del comando para abrir el menú, por ejemplo `/comando argumento1 argumento2`
 * Para más información sobre los argumentos puedes ir a:
@@ -46,7 +46,7 @@ Options:
   Arguments: true
 ```
 
-### II. Argumentos por defecto
+## II. Argumentos por defecto
 
 * En caso de que tu menú requiera argumentos para funcionar y que alguien use el comando sin ningún argumento entonces puedes definir argumentos por defecto.
 
@@ -66,7 +66,7 @@ Options:
   Default-Arguments: ['manzana','naraja123']
 ```
 
-### III. Diseño por defecto
+## III. Diseño por defecto
 
 * En caso de no haber definido el diseño de tu menú entonces puedes hacerlo aquí.
 
@@ -83,7 +83,7 @@ Options:
     - '+     +++'
 ```
 
-### IV. Ocultar items del jugador
+## IV. Ocultar items del jugador
 
 * Con esta opción puedes ocultar los items del jugador cuando abras el menú.
 * Esto es bastante útil en caso de usar el diseño del inventario de jugador.
@@ -99,7 +99,7 @@ Options:
   Hide-Player-Inventory: true
 ```
 
-### V. Retraso requerido entre los clicks
+## V. Retraso requerido entre los clicks
 
 * Con esta opción puedes evitar los típicos hacks que sacan items del menú spameando clicks.
 * El retraso o delay requerido se escribe en milisegundos.
@@ -116,7 +116,7 @@ Options:
   Min-Click-Delay: 200
 ```
 
-### VI. Expansiones requeridas
+## VI. Expansiones requeridas
 
 * Con esta opción defines las expansiones de PlaceholderAPI requeridas para usar el menú.
 * En caso de que el servidor no tenga alguna de estas expansiones descargadas entonces TrMenu se encargará de descargarla e instalarla.

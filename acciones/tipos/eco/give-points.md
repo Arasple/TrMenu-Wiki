@@ -18,5 +18,3 @@ description: Give the specified amount of points to the player using PlayerPoint
 
 {% page-ref page="../../../plugins-compatibles/playerpoints.md" %}
 
-
-

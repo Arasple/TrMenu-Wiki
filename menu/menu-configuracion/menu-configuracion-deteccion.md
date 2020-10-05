@@ -22,7 +22,7 @@ Bindings:
     - 'material:clock,lore:OPEN_MENU'
 ```
 
-### I. Comandos
+## I. Comandos
 
 * Puedes definir con cuales comandos se abrirá el menú.
 * Se pueden usar textos en RegEx
@@ -41,7 +41,7 @@ Bindings:
     - '(?i)abrir(-)?(menu)?(s)?'
 ```
 
-### II. Items
+## II. Items
 
 * Puedes abrir el menú al interactuar con ítems.
 * Aquí defines con cuales ítems se podrá abrir.

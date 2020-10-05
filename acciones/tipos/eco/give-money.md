@@ -19,5 +19,3 @@ description: Give the specified amount of money to the player using Vault
 
 {% page-ref page="../../../plugins-compatibles/vault.md" %}
 
-
-

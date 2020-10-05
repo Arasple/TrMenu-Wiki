@@ -12,7 +12,3 @@ hasLevel.10
 
 {% page-ref page="../../plugins-compatibles/vault.md" %}
 
-
-
-
-

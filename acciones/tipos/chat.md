@@ -21,5 +21,3 @@ chat
 - 'chat: /quit'
 ```
 
-
-

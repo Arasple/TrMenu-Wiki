@@ -4,7 +4,7 @@ description: Bienvenid@ a la wiki de TrMenu v2 en español!
 
 # Inicio
 
-### Introducción
+## Introducción
 
 TrMenu fue lanzado en Octubre 4 de año 2019 buscando ser un nuevo y mejor plugin de menús para Minecraft.
 
@@ -12,13 +12,13 @@ Actualmente se está haciendo TrMenu 2.0 el cual es una versión completamente r
 
 Para funcionar TrMenu usa una expansión poderosa que se incorpora con la API de Bukkit llamada [TabooLib5](https://github.com/TabooLib)
 
-### ¿Qué es TrMenu?
+## ¿Qué es TrMenu?
 
 * TrMenu es un plugin increíble para crear menús completamente editables de manera sencilla para el usuario.
 * TrMenu tiene muchas opciones para la creación de menús además de utilidades para tu servidor.
 * Con TrMenu podrás crear menús que fácilmente podrían reemplazar otros plugins, ¿Quieres crear un minijuego, un menú interactivo para editar tu servidor o incluso un menú multilenguaje? Pues no hay problema, con TrMenu podrás hacerlo!
 
-### Caracteristicas de TrMenu
+## Caracteristicas de TrMenu
 
 * **Soporte multi-versión:** TrMenu se puede usar desde la versión 1.8 hasta la 1.16.2 de Minecraft y con sus respectivos materiales o IDs.
 * **Menús ilimitados:** Puedes hacer todos los menús que quieras con este plugin!
@@ -51,7 +51,7 @@ Para funcionar TrMenu usa una expansión poderosa que se incorpora con la API de
 * Código abierto y Developer API
 * Y mucho más ...
 
-### Plugins compatibles
+## Plugins compatibles
 
 TrMenu es compatible con los plugins:
 

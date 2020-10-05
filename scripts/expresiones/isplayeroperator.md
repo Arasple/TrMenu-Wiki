@@ -10,5 +10,3 @@ description: Check if the specified player is an Operator
 isPlayerOperator.BlackSKY
 ```
 
-
-

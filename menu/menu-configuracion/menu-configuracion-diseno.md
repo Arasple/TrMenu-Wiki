@@ -4,10 +4,10 @@ description: Configurar diseño del menú
 
 # Diseño
 
-### I. Diseño del menú
+## I. Diseño del menú
 
 * Cada símbolo o letra representa un botón del menú
-* Si un botón tiene 2 letras o más en su identificador entonces debes escribirlo como \`ID\`, por ejemplo ```boton1```
+* Si un botón tiene 2 letras o más en su identificador entonces debes escribirlo como \`ID\`, por ejemplo `boton1`
 * Al repetir símbolos hace que el botón se vea en varios espacios al mismo tiempo
 * Cada línea define el tamaño del menú \(suponiendo que el tipo de inventario sea **CHEST**\)
 
@@ -113,7 +113,7 @@ Layout: [
 {% endtab %}
 {% endtabs %}
 
-### II. Diseño del inventario del jugador \(Opcional\)
+## II. Diseño del inventario del jugador \(Opcional\)
 
 * Además de editar el menú que abres, también puedes convertir el inventario del jugador como parte del menú mientras tengas el menú abierto.
 * Para acomodar los botones se siguen las mismas reglas del diseño del menú, excepto el tamaño ya que el inventario del jugador solo tiene 4 líneas.

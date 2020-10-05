@@ -13,7 +13,3 @@
 [https://trmenu.trixey.cc/menu/icons/display/material\#headdatabase-heads](https://trmenu.trixey.cc/menu/icons/display/material#headdatabase-heads)
 {% endhint %}
 
-
-
-
-

@@ -9,7 +9,7 @@ description: Configurar tipo de inventario del menú
 * **Normal:** Type
 * **RegEx:** \(inv\(entory\)?\)?\(-\)?type\(s\)?
 
-### Tipo de inventario
+## Tipo de inventario
 
 * El tipo de inventario es la forma como quieres que se vea el menú, ya sea como un cofre o un dispensador.. etc.
 * Algunos tipos de inventarios no son compatibles con el diseño del menú, así que en caso de usarlos deberás omitir la configuración del diseño del menú y tendrás que añadirle a cada botón por separado el slot o posición donde se mostrarán en el menú.

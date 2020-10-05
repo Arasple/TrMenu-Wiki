@@ -26,5 +26,3 @@
 
 {% page-ref page="../scripts/expresiones/hasmoney.md" %}
 
-
-

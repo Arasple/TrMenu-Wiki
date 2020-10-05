@@ -18,5 +18,3 @@ set(-)?point(s)?
 
 {% page-ref page="../../../plugins-compatibles/playerpoints.md" %}
 
-
-

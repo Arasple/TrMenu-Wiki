@@ -4,7 +4,7 @@ description: Configurar tareas periódicas del menú
 
 # Tareas periódicas
 
-### Tasks
+## Tasks
 
 * Las tareas periódicas a tasks son cosas que ejecutan acciones cada cierto intervalo de tiempo mientras el menú está abierto.
 * Cada task está conformada por 3 partes: identificador, intervalo y acciones

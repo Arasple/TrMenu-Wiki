@@ -12,5 +12,3 @@ hasPoints.100
 
 {% page-ref page="../../plugins-compatibles/playerpoints.md" %}
 
-
-

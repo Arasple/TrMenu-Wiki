@@ -4,7 +4,7 @@ description: Como empezar a usar TrMenu
 
 # Como empezar
 
-### Recomendaciones
+## Recomendaciones
 
 Antes de empezar a usar TrMenu se sugiere tener conocimientos en:
 
@@ -16,11 +16,9 @@ Antes de empezar a usar TrMenu se sugiere tener conocimientos en:
 | Formato JSON | Opcional |
 | Programación básica en Java y Javascript | Sugerible |
 
-### Pasos para empezar
+## Pasos para empezar
 
 {% page-ref page="instalacion.md" %}
 
 {% page-ref page="configuracion.md" %}
-
-
 

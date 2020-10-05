@@ -8,19 +8,19 @@ description: Como instalar TrMenu
 La primera vez que uses TrMenu debes tu servidor debe tener conexión a internet
 {% endhint %}
 
-### Compatibilidad
+## Compatibilidad
 
 | Tipo de servidor | Compatible |
 | :--- | :--- |
 | Spigot y derivados | 1.8-1.16 |
-| PaperSpigot  | 1.8-1.16 |
+| PaperSpigot | 1.8-1.16 |
 | Akarin | × |
 | Arclight \(Forge\) | √ |
 | CatServer \(Bukkit+Forge\) | √ |
 | Mohist \(Bukkit+Forge\) | × |
 | Magma \(Bukkit+Forge\) | Sin testear |
 
-### Instalación
+## Instalación
 
 * Mueve el archivo `TrMenu.jar` a la carpeta de plugins de tu servidor
 * Reinicia el servidor \(apagarlo y luego encenderlo\)

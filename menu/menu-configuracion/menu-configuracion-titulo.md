@@ -9,7 +9,7 @@ description: Configurar título del menú
 * **Normal:** Title
 * **RegEx:** title\(s\)?
 
-### I. Título normal
+## I. Título normal
 
 * Un solo título que se mostrará arriba del menú
 * Se pueden usar códigos de color &
@@ -18,7 +18,7 @@ description: Configurar título del menú
 Title: '&4Esto es un título'
 ```
 
-### II. Título dinámico
+## II. Título dinámico
 
 * Varios títulos que cambiarán constantemente
 * Esta opción va acompañada con el actualizador de título

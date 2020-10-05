@@ -38,7 +38,7 @@ Events:
 
 {% page-ref page="../../api/eventos/menuclickevent.md" %}
 
-### I. Al abrir el menú
+## I. Al abrir el menú
 
 **Formas de escribirlo**
 
@@ -85,7 +85,7 @@ Events:
 {% endtab %}
 {% endtabs %}
 
-### II. Al cerrar el menú
+## II. Al cerrar el menú
 
 **Formas de escribirlo**
 
@@ -100,7 +100,7 @@ Events:
     - 'SOUND: BLOCK_CHEST_CLOSE-1-0'
 ```
 
-### III. Al darle click al menú
+## III. Al darle click al menú
 
 **Formas de escribirlo**
 
