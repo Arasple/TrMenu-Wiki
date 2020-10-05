@@ -2,7 +2,7 @@
 description: 为显示物品添加 ItemFlags
 ---
 
-# 标签
+# Flags
 
 ## 节点
 

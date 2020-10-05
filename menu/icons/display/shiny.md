@@ -2,7 +2,7 @@
 description: 附魔发光效果
 ---
 
-# 发光
+# Glow
 
 ## 节点
 

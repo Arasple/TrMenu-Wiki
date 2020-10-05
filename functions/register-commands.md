@@ -2,7 +2,7 @@
 description: 在 settings.yml 配置该功能，你可以创建支持 TAB 补全的自定义命令
 ---
 
-# 注册命令
+# Register Commands
 
 ## 配置
 
@@ -25,7 +25,6 @@ RegisterCommands:
     # 参数及对应的反应
     arguments:
       example: 'open: example'
-
 ```
 {% endcode %}
 

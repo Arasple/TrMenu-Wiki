@@ -2,7 +2,7 @@
 description: 绑定菜单到快捷命令打开 & 物品特征
 ---
 
-# 绑定
+# Bindings
 
 ## 示例
 

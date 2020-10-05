@@ -2,7 +2,7 @@
 description: 显示的物品材质
 ---
 
-# 材质
+# Material
 
 ## 节点
 
@@ -83,7 +83,7 @@ material: '<skull:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW
 material: '<skull:44f452d998eabac4642c6b0fe5a8f4e2e673edcae2a6dfd9e6a2e86e786edac0>'
 ```
 
-{% embed url="https://minecraft-heads.com/custom-heads" %}
+{% embed url="https://minecraft-heads.com/custom-heads" caption="" %}
 
 ## 染色皮革
 
@@ -98,7 +98,7 @@ material: 'leather chestplate<dye:255,255,0>'
 material: 'white banner<banner:RED MOJANG,WHITE>'
 ```
 
-{% embed url="https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/banner/PatternType.html" %}
+{% embed url="https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/banner/PatternType.html" caption="" %}
 
 ## JSON 物品
 

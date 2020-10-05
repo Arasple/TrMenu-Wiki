@@ -32,7 +32,7 @@ description: Chuyển đổi các tập cấu hình từ các menu khác thành 
 * Ví dụ:
   * `trmenu migrate TrMenuV1 oldMenus`
 
-Nếu mọi thứ trở nên tốt đẹp, bạn có thể tìm thấy tất cả menu chuyển đổi của bạn trong  `/TrMenu/migrated/`
+Nếu mọi thứ trở nên tốt đẹp, bạn có thể tìm thấy tất cả menu chuyển đổi của bạn trong `/TrMenu/migrated/`
 
 Để tải các menu đã chuyển đổi, chỉ cần sao chép trong vào `/TrMenu/menus/` và thực thi `/trmenu reload`
 

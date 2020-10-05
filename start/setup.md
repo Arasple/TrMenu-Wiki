@@ -16,7 +16,7 @@ Bạn có thể chỉnh sửa hầu hết các tin nhắn của plugin trong t�
 {% endtab %}
 
 {% tab title="/items.yml" %}
-Lưu trữ cho các mục được tạo bằng lệnh `/trmenu itemRepo` 
+Lưu trữ cho các mục được tạo bằng lệnh `/trmenu itemRepo`
 {% endtab %}
 {% endtabs %}
 

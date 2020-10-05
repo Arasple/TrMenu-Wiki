@@ -18,5 +18,3 @@ set(-)?point(s)?
 
 {% page-ref page="../../../hook/playerpoints.md" %}
 
-
-

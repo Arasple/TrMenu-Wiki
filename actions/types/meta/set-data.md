@@ -14,5 +14,3 @@
 - 'tell: {data:Key1}, {data:Key2}, {data:Key3}.'
 ```
 
-
-

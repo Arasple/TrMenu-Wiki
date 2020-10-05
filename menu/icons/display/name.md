@@ -2,7 +2,7 @@
 description: 物品的显示名称
 ---
 
-# 名称
+# Name
 
 ## 节点
 

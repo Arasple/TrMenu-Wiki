@@ -22,5 +22,3 @@ description: Execute JavScript scripts
 
 {% page-ref page="../../script/scripts.md" %}
 
-
-

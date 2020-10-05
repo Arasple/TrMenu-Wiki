@@ -1,2 +1,2 @@
-# SkinRestorer
+# SkinsRestorer
 

@@ -14,5 +14,3 @@ set(-)?(temp|var(iable)?|meta)(s)?
 - 'tell: {meta:Key1}, {meta:Key2}, {meta:Key3}.'
 ```
 
-
-

@@ -12,5 +12,3 @@ hasItem.material:DIAMOND,amount:64
 
 {% page-ref page="../../functions/item-identifiers.md" %}
 
-
-
