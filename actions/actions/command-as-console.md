@@ -16,5 +16,3 @@ console
 - 'console: lp perm add %player_name% vip.user ;give %player_name% diamond 64'
 ```
 
-
-

@@ -30,5 +30,3 @@ Tasks:
 
 {% page-ref page="../../actions/reactions.md" %}
 
-
-

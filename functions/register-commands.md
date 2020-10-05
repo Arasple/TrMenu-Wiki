@@ -25,7 +25,6 @@ RegisterCommands:
     # 参数及对应的反应
     arguments:
       example: 'open: example'
-
 ```
 {% endcode %}
 

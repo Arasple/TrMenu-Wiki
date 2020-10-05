@@ -13,5 +13,3 @@ set(-)?(temp|var(iable)?|meta)(s)?
 - 'set-meta: Key2 Value2;Key3 Value3'
 ```
 
-
-

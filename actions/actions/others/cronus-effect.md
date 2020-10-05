@@ -6,5 +6,3 @@
 (cq|cronus)(-)?effect(s)?
 ```
 
-
-

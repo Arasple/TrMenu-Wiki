@@ -14,5 +14,3 @@ equals.%player_name%.Arasple
 is.{meta:hide}.true
 ```
 
-
-

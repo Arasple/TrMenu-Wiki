@@ -10,19 +10,20 @@ description: TrMenu v2.x 为付费开源版本，提供更优质的功能和体�
 
 ## 价格
 
-* 79.9 RMB
+* 89.9 RMB
 
 ## 折扣
 
 * 50% OFF
   * 公益服或正版服 服主
+  * **必须现有 MCBBS 过审宣传帖**
+  * **正在开发的公益服务器不享受折扣**
 
 ## 渠道
 
 * （推荐）[爱发电](http://afdian.net/order/create?plan_id=5ae2399c5d2b11eab48352540025c377)付费
 * （不推荐）国外资源平台
-  * [SpigotMC](https://www.spigotmc.org/resources/82063/)
-  * [Mc-Market](https://www.mc-market.org/resources/16703/)
+  * [SpigotMC](https://www.spigotmc.org/resources/83120/)
   * [Songoda](https://songoda.com/marketplace/product/459)
 * 直接联系开发者转账
 
@@ -39,8 +40,6 @@ description: TrMenu v2.x 为付费开源版本，提供更优质的功能和体�
 * 我相信本插件的品质配得上这笔大多数服主都能承担起的钱，
 * 您如果实在**不愿意**支持这一份工作，也可以选择自行编译使用
 * 但我将没有义务为你提供任何帮助亦或采纳建议
-
-
 
 ![](https://i.loli.net/2020/07/28/FmBPRIsehcG7oJE.png)
 

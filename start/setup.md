@@ -109,7 +109,6 @@ RegisterCommands:
 Events-Ignore-Cancelled:
   # 监听菜单打开命令
   PlayerCommandPreprocessEvent: true
-
 ```
 {% endcode %}
 

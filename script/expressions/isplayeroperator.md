@@ -10,5 +10,3 @@ description: 判断指定玩家是否为 Op
 isPlayerOperator.BlackSKY
 ```
 
-
-
